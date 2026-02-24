@@ -1,1 +1,0 @@
-if (ds_exists(seats, ds_type_list)) ds_list_destroy(seats);

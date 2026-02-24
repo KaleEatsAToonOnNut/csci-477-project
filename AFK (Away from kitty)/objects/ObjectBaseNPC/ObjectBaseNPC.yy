@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"BaseObjects",
-    "path":"folders/Objects/BaseObjects.yy",
+    "path":"folders/Objects/TopDown/BaseObjects.yy",
   },
   "parentObjectId":{
     "name":"ObjectBaseMoveable",

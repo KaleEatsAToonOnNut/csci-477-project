@@ -1,9 +1,8 @@
-// Set the preserved speed
 preservedSpd.x = spd.x;
-preservedSpd.y = spd.y;   
+preservedSpd.y = spd.y;
 
 // Check if the object is supposed to be frozen
-if(getState(stateList.STATE_FROZEN)) {
+if(getState("STATE_FROZEN")) {
     return;
 }
 
@@ -11,15 +10,15 @@ if(getState(stateList.STATE_FROZEN)) {
 if(spd.x != 0) {
     x += spd.x;
     // Clear momentum after
-    if(!getState(stateList.STATE_FORCE_MOMENTUM)) {
+    if(!getState("STATE_FORCE_MOMENTUM")) {
         spd.x = 0;
     }
 }
 // Move in the y direction
 if(spd.y != 0) {
-    y += spd.y;
+    y += spd.y
     // Clear momentum after
-    if(!getState(stateList.STATE_FORCE_MOMENTUM)) {
+    if(!getState("STATE_FORCE_MOMENTUM")) {
         spd.y = 0;
     }
 }

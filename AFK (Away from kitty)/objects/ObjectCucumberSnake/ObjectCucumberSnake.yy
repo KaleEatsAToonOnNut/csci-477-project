@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"ObjectBoxTest",
+  "%Name":"ObjectCucumberSnake",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ObjectBoxTest",
-  "overriddenProperties":[],
+  "name":"ObjectCucumberSnake",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjectBaseInteractive","path":"objects/ObjectBaseInteractive/ObjectBaseInteractive.yy",},"propertyId":{"name":"callbackTimer","path":"objects/ObjectBaseInteractive/ObjectBaseInteractive.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+  ],
   "parent":{
-    "name":"TopDown",
-    "path":"folders/Objects/TopDown.yy",
+    "name":"WorldEnemies",
+    "path":"folders/Objects/TopDown/WorldEnemies.yy",
   },
   "parentObjectId":{
-    "name":"ObjectBaseMoveable",
-    "path":"objects/ObjectBaseMoveable/ObjectBaseMoveable.yy",
+    "name":"ObjectBaseEnemy",
+    "path":"objects/ObjectBaseEnemy/ObjectBaseEnemy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SpriteBoxPlaceholder",
-    "path":"sprites/SpriteBoxPlaceholder/SpriteBoxPlaceholder.yy",
+    "name":"SpriteEnemyPlaceholder",
+    "path":"sprites/SpriteEnemyPlaceholder/SpriteEnemyPlaceholder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

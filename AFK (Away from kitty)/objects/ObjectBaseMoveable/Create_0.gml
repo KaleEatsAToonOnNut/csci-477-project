@@ -5,10 +5,10 @@
 event_inherited();
 
 // States any moveable object can be in, builds upon the stateList defined in ObjectBaseInteractive
+// Sets the object to be pushed when interacted with
+addToStateList("STATE_INTERACTION_PUSHABLE");
 // Freezes the object from moving
 addToStateList("STATE_FROZEN");
-// Makes the object invulnerable
-addToStateList("STATE_INVULNERABLE");
 // The object will not zero its momentum after a move step
 addToStateList("STATE_FORCE_MOMENTUM");
 // Do not collide with entities physically
@@ -35,25 +35,4 @@ preservedSpd = {
 function addSpeed(otherSpeed) {
     spd.x += otherSpeed.x;
     spd.y += otherSpeed.y;
-}
-
-// Manage current state. Whether the entity can interact, move, etc.
-currentState = 0;
-
-// Set a state in the stateList bitmask
-function setState(stateToCheck) {
-    currentState |= stateToCheck;
-}
-
-// Remove a state in the stateList bitmask
-function removeState(stateToCheck) {
-    currentState = currentState & (~stateToCheck);
-}
-
-// Check if a state is applied
-function getState(stateToCheck) {
-    if(currentState & stateToCheck) {
-        return true;
-    }
-    return false;
 }

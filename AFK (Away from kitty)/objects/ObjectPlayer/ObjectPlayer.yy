@@ -13,8 +13,8 @@
   "name":"ObjectPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"TopDown",
+    "path":"folders/Objects/TopDown.yy",
   },
   "parentObjectId":{
     "name":"ObjectBaseMoveable",

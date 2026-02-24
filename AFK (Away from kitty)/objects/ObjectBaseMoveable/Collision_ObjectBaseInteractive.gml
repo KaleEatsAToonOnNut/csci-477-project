@@ -1,15 +1,8 @@
-if(other.getState(other.stateList.STATE_E_FOR_INTERACTION)) {
-    return;
-}
+// Inherit the parent event
+event_inherited();
 
-if(other.getState(other.stateList.STATE_INTERACTION_PUSHABLE)) {
-    other.addSpeed(preservedSpd);
-}
-
-if(other.getState(other.stateList.STATE_INTERACTION_CALLBACK)) {
-    if(callbackTimer > 0) {
-        other.alarm[0] = callbackTimer;
-    } else {
-        other.event_user(0);
-    }
+if(other.getState("STATE_INTERACTION_PUSHABLE")) {
+    // Just don't touch it and it should be fine.
+    // A bug related to this cost me like 3 hours of my life.
+    other.addSpeed(preservedSpd)
 }
