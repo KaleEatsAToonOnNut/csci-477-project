@@ -1,4 +1,24 @@
 {
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Objects","order":1,"path":"folders/Objects.yy",},
+    {"name":"SideView","order":12,"path":"folders/Objects/SideView.yy",},
+    {"name":"BaseObjects","order":1,"path":"folders/Objects/SideView/BaseObjects.yy",},
+    {"name":"TopDown","order":11,"path":"folders/Objects/TopDown.yy",},
+    {"name":"BattleEnemies","order":1,"path":"folders/Objects/TopDown/BattleEnemies.yy",},
+    {"name":"WorldEnemies","order":2,"path":"folders/Objects/TopDown/WorldEnemies.yy",},
+    {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"ObjectBaseInteractive","order":1,"path":"objects/ObjectBaseInteractive/ObjectBaseInteractive.yy",},
+    {"name":"ObjectBaseMoveable","order":2,"path":"objects/ObjectBaseMoveable/ObjectBaseMoveable.yy",},
+    {"name":"ObjectBaseNPC","order":3,"path":"objects/ObjectBaseNPC/ObjectBaseNPC.yy",},
+    {"name":"ObjectBaseStatic","order":4,"path":"objects/ObjectBaseStatic/ObjectBaseStatic.yy",},
+    {"name":"ObjectBoxTest","order":5,"path":"objects/ObjectBoxTest/ObjectBoxTest.yy",},
+    {"name":"ObjectPlayer","order":4,"path":"objects/ObjectPlayer/ObjectPlayer.yy",},
+    {"name":"ObjectRoomTransition","order":3,"path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},
+    {"name":"Room2","order":3,"path":"rooms/Room2/Room2.yy",},
+    {"name":"SpriteBoxPlaceholder","order":2,"path":"sprites/SpriteBoxPlaceholder/SpriteBoxPlaceholder.yy",},
+    {"name":"SpriteEnemyPlaceholder","order":3,"path":"sprites/SpriteEnemyPlaceholder/SpriteEnemyPlaceholder.yy",},
+    {"name":"SpriteObjectTransition","order":1,"path":"sprites/SpriteObjectTransition/SpriteObjectTransition.yy",},
+  ],
 }
