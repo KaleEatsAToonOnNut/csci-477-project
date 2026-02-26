@@ -17,6 +17,8 @@ addToStateList("STATE_NO_COLLIDE");
 addToStateList("STATE_NO_WALL_COLLIDE");
 // Only stop movements when aligned with a tile
 addToStateList("STATE_TILE_BASED_MOVEMENT");
+// Lock the object's momentum
+addToStateList("STATE_LOCK_MOMENTUM")
 
 // Manage the speed of the object
 spd = {
@@ -31,7 +33,7 @@ preservedSpd = {
     y: 0
 };
 
-
+// Add speed to this object
 function addSpeed(otherSpeed) {
     spd.x += otherSpeed.x;
     spd.y += otherSpeed.y;

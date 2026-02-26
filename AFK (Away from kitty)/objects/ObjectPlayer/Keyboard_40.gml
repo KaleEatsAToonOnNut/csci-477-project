@@ -1,1 +1,3 @@
-spd.y = moveSpeed;
+if(!getState("STATE_LOCK_MOMENTUM")) {
+    spd.y = moveSpeed;
+}

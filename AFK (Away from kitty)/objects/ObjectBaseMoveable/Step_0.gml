@@ -10,7 +10,7 @@ if(getState("STATE_FROZEN")) {
 if(spd.x != 0) {
     x += spd.x;
     // Clear momentum after
-    if(!getState("STATE_FORCE_MOMENTUM")) {
+    if(!getState("STATE_FORCE_MOMENTUM") && !getState("STATE_LOCK_MOMENTUM")) {
         spd.x = 0;
     }
 }
@@ -18,7 +18,7 @@ if(spd.x != 0) {
 if(spd.y != 0) {
     y += spd.y
     // Clear momentum after
-    if(!getState("STATE_FORCE_MOMENTUM")) {
+    if(!getState("STATE_FORCE_MOMENTUM") && !getState("STATE_LOCK_MOMENTUM")) {
         spd.y = 0;
     }
 }

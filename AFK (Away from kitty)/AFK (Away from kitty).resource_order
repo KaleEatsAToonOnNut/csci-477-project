@@ -1,11 +1,13 @@
 {
   "FolderOrderSettings":[
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
+    {"name":"Weapons","order":14,"path":"folders/Objects/Weapons.yy",},
     {"name":"SideView","order":12,"path":"folders/Objects/SideView.yy",},
     {"name":"BaseObjects","order":1,"path":"folders/Objects/SideView/BaseObjects.yy",},
     {"name":"TopDown","order":11,"path":"folders/Objects/TopDown.yy",},
     {"name":"BattleEnemies","order":1,"path":"folders/Objects/TopDown/BattleEnemies.yy",},
     {"name":"WorldEnemies","order":2,"path":"folders/Objects/TopDown/WorldEnemies.yy",},
+    {"name":"UI","order":13,"path":"folders/Objects/UI.yy",},
     {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
