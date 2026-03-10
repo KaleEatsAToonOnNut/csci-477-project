@@ -1,7 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
-    {"name":"Weapons","order":14,"path":"folders/Objects/Weapons.yy",},
+    {"name":"Fundamental","order":15,"path":"folders/Objects/Fundamental.yy",},
+    {"name":"Items","order":16,"path":"folders/Objects/Items.yy",},
     {"name":"SideView","order":12,"path":"folders/Objects/SideView.yy",},
     {"name":"BaseObjects","order":1,"path":"folders/Objects/SideView/BaseObjects.yy",},
     {"name":"TopDown","order":11,"path":"folders/Objects/TopDown.yy",},
@@ -16,8 +17,10 @@
     {"name":"ObjectBaseNPC","order":3,"path":"objects/ObjectBaseNPC/ObjectBaseNPC.yy",},
     {"name":"ObjectBaseStatic","order":4,"path":"objects/ObjectBaseStatic/ObjectBaseStatic.yy",},
     {"name":"ObjectBoxTest","order":5,"path":"objects/ObjectBoxTest/ObjectBoxTest.yy",},
+    {"name":"ObjectMeleeWeapon","order":1,"path":"objects/ObjectMeleeWeapon/ObjectMeleeWeapon.yy",},
     {"name":"ObjectPlayer","order":4,"path":"objects/ObjectPlayer/ObjectPlayer.yy",},
-    {"name":"ObjectRoomTransition","order":3,"path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},
+    {"name":"ObjectRangedWeapon","order":2,"path":"objects/ObjectRangedWeapon/ObjectRangedWeapon.yy",},
+    {"name":"ObjectRoomTransition","order":1,"path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},
     {"name":"Room2","order":3,"path":"rooms/Room2/Room2.yy",},
     {"name":"SpriteBoxPlaceholder","order":2,"path":"sprites/SpriteBoxPlaceholder/SpriteBoxPlaceholder.yy",},
     {"name":"SpriteEnemyPlaceholder","order":3,"path":"sprites/SpriteEnemyPlaceholder/SpriteEnemyPlaceholder.yy",},

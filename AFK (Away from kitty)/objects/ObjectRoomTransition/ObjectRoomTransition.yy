@@ -8,8 +8,8 @@
   "name":"ObjectRoomTransition",
   "overriddenProperties":[],
   "parent":{
-    "name":"TopDown",
-    "path":"folders/Objects/TopDown.yy",
+    "name":"Fundamental",
+    "path":"folders/Objects/Fundamental.yy",
   },
   "parentObjectId":null,
   "persistent":false,
