@@ -47,8 +47,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SpritePlayerPlaceholder",
-    "path":"sprites/SpritePlayerPlaceholder/SpritePlayerPlaceholder.yy",
+    "name":"cat_test",
+    "path":"sprites/cat_test/cat_test.yy",
   },
   "spriteMaskId":null,
   "visible":true,
