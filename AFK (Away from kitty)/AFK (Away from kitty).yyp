@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"AFK (Away from kitty)",
   "resources":[
@@ -44,6 +44,7 @@
     {"id":{"name":"ObjectBaseSide2D","path":"objects/ObjectBaseSide2D/ObjectBaseSide2D.yy",},},
     {"id":{"name":"ObjectBaseStatic","path":"objects/ObjectBaseStatic/ObjectBaseStatic.yy",},},
     {"id":{"name":"ObjectBaseWeapon","path":"objects/ObjectBaseWeapon/ObjectBaseWeapon.yy",},},
+    {"id":{"name":"ObjectBaseWeaponProjectile","path":"objects/ObjectBaseWeaponProjectile/ObjectBaseWeaponProjectile.yy",},},
     {"id":{"name":"ObjectBoxTest","path":"objects/ObjectBoxTest/ObjectBoxTest.yy",},},
     {"id":{"name":"ObjectCucumberSnake","path":"objects/ObjectCucumberSnake/ObjectCucumberSnake.yy",},},
     {"id":{"name":"ObjectInventoryManager","path":"objects/ObjectInventoryManager/ObjectInventoryManager.yy",},},
@@ -73,8 +74,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
