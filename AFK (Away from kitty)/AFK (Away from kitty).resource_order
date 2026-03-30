@@ -26,6 +26,7 @@
     {"name":"ObjectBaseMoveable","order":2,"path":"objects/ObjectBaseMoveable/ObjectBaseMoveable.yy",},
     {"name":"ObjectBaseNPC","order":3,"path":"objects/ObjectBaseNPC/ObjectBaseNPC.yy",},
     {"name":"ObjectBaseStatic","order":4,"path":"objects/ObjectBaseStatic/ObjectBaseStatic.yy",},
+    {"name":"ObjectBaseWeaponProjectile","order":5,"path":"objects/ObjectBaseWeaponProjectile/ObjectBaseWeaponProjectile.yy",},
     {"name":"ObjectBoxTest","order":5,"path":"objects/ObjectBoxTest/ObjectBoxTest.yy",},
     {"name":"ObjectMeleeWeapon","order":1,"path":"objects/ObjectMeleeWeapon/ObjectMeleeWeapon.yy",},
     {"name":"ObjectPlayer","order":4,"path":"objects/ObjectPlayer/ObjectPlayer.yy",},
