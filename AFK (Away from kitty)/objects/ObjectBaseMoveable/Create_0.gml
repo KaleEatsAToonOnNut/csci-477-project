@@ -18,7 +18,7 @@ addToStateList("STATE_NO_WALL_COLLIDE");
 // Only stop movements when aligned with a tile
 addToStateList("STATE_TILE_BASED_MOVEMENT");
 // Lock the object's momentum
-addToStateList("STATE_LOCK_MOMENTUM")
+addToStateList("STATE_LOCK_MOMENTUM");
 
 // Manage the speed of the object
 spd = {
