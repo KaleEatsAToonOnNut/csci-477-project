@@ -4,8 +4,29 @@ stateList = {
     // Sets the object to trigger a callback function when interacted with
     STATE_INTERACTION_CALLBACK: 2,
     // Makes the object invulnerable
-    STATE_INVULNERABLE: 4
+    STATE_INVULNERABLE: 4,
+    // Locks the offset and rotation to what it is when initalized
+    STATE_LOCK_PARENT: 8
 };
+
+parentStats = {
+    offset: {
+        x: 0,
+        y: 0
+    },
+    rOffset: 0
+};
+
+if(parent != noone) {
+    parentStats = {
+        offset: {
+            x: x - parent.x,
+            y: y - parent.y
+        },
+        rOffset: image_angle - parent.image_angle
+    }      
+}
+
 
 // Function to automatically add a state to the stateList bitmask
 function addToStateList(stateName) {

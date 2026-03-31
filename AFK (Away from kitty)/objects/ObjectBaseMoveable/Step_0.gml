@@ -1,3 +1,5 @@
+event_inherited();
+
 preservedSpd.x = spd.x;
 preservedSpd.y = spd.y;
 
