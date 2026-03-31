@@ -9,3 +9,5 @@ dashDirection = 0;
 function animation(spriteAnimation) {
     sprite_index = spriteAnimation;
 }
+
+max_hp = hp;
