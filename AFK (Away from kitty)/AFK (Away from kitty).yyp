@@ -29,7 +29,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.4.221",
   },
   "name":"AFK (Away from kitty)",
   "resources":[
@@ -73,6 +73,7 @@
     {"id":{"name":"Oak","path":"sprites/Oak/Oak.yy",},},
     {"id":{"name":"Oak2","path":"sprites/Oak2/Oak2.yy",},},
     {"id":{"name":"sMainFont","path":"sprites/sMainFont/sMainFont.yy",},},
+    {"id":{"name":"spr_CollisionX","path":"sprites/spr_CollisionX/spr_CollisionX.yy",},},
     {"id":{"name":"spr_enemy1_placeholder","path":"sprites/spr_enemy1_placeholder/spr_enemy1_placeholder.yy",},},
     {"id":{"name":"spr_slash","path":"sprites/spr_slash/spr_slash.yy",},},
     {"id":{"name":"spr_speakblock","path":"sprites/spr_speakblock/spr_speakblock.yy",},},
@@ -88,6 +89,7 @@
     {"id":{"name":"village_box1","path":"sprites/village_box1/village_box1.yy",},},
     {"id":{"name":"village_box2","path":"sprites/village_box2/village_box2.yy",},},
     {"id":{"name":"wall","path":"sprites/wall/wall.yy",},},
+    {"id":{"name":"CollisionTile","path":"tilesets/CollisionTile/CollisionTile.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
   ],
