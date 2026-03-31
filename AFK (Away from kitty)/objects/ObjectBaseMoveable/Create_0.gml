@@ -31,8 +31,21 @@ preservedSpd = {
     y: 0
 };
 
+knockback = {
+    x: 0,
+    y: 0
+}
+
 // Add speed to this object
 function addSpeed(otherSpeed) {
     spd.x += otherSpeed.x;
     spd.y += otherSpeed.y;
+}
+
+
+function applyKnockback(strength, direction) {
+    knockback = {
+        x: strength * cos(direction), 
+        y: strength * sin(direction)
+    }
 }

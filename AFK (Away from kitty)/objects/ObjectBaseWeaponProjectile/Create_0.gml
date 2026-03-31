@@ -2,3 +2,6 @@
 event_inherited();
 setState("STATE_INVULNERABLE")
 setState("STATE_NO_COLLIDE");
+attacked = [];
+
+alarm[0] = lifetime;

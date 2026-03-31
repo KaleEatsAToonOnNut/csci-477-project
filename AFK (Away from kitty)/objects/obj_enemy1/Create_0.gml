@@ -1,4 +1,5 @@
-hp = 3
+event_inherited();
+
 moveSpeed = 3
 atk_spd = 8
 vsp = 0
