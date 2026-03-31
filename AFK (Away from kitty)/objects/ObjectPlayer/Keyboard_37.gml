@@ -3,4 +3,5 @@ if(!getState("STATE_LOCK_MOMENTUM")) {
     image_xscale = -1;
     moving = true;
     sprite_index = cat_walk;
+    dashDirection = pi;
 }

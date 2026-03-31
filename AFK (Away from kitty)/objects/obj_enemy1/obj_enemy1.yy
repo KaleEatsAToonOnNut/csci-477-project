@@ -11,7 +11,7 @@
   "managed":true,
   "name":"obj_enemy1",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjectBaseInteractive","path":"objects/ObjectBaseInteractive/ObjectBaseInteractive.yy",},"propertyId":{"name":"hp","path":"objects/ObjectBaseInteractive/ObjectBaseInteractive.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjectBaseInteractive","path":"objects/ObjectBaseInteractive/ObjectBaseInteractive.yy",},"propertyId":{"name":"hp","path":"objects/ObjectBaseInteractive/ObjectBaseInteractive.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
   ],
   "parent":{
     "name":"Enemies",

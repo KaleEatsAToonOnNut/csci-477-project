@@ -31,10 +31,13 @@ preservedSpd = {
     y: 0
 };
 
+// Amount of knockback taken
 knockback = {
     x: 0,
     y: 0
 }
+
+knockbackTiming = 20;
 
 // Add speed to this object
 function addSpeed(otherSpeed) {
@@ -44,8 +47,13 @@ function addSpeed(otherSpeed) {
 
 
 function applyKnockback(strength, direction) {
-    knockback = {
-        x: strength * cos(direction), 
-        y: strength * sin(direction)
+    with(knockback) {
+        x = strength * cos(direction);
+        y = strength * sin(direction);
+    }
+    if(alarm[11] == -1) {
+        alarm[11] = knockbackTiming;
+        image_alpha = 0.5;
+        setState("STATE_INVULNERABLE");
     }
 }

@@ -20,3 +20,5 @@ attackTimer = game_get_speed(gamespeed_fps) * 1
 alarm[0] = idleMoveTime
 alarm[1] = idleStopTime
 alarm[2] = attackTimer
+
+setState("STATE_CONTACT_HARM_PLAYER")
