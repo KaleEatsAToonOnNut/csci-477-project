@@ -1,3 +1,5 @@
+event_inherited();
+
 preservedSpd.x = spd.x;
 preservedSpd.y = spd.y;
 
@@ -6,6 +8,11 @@ tilemap_id = layer_tilemap_get_id("Collision_Tiles")
 // Check if the object is supposed to be frozen
 if(getState("STATE_FROZEN")) {
     return;
+}
+
+if(knockback.x != 0 || knockback.y != 0) {
+    spd.x = knockback.x;
+    spd.y = knockback.y;
 }
 
 if (place_meeting(x + spd.x, y, tilemap_id)) {
@@ -24,7 +31,7 @@ if (place_meeting(x, y + spd.y, tilemap_id)) {
 
 // Move in the x direction
 if (spd.x != 0) {
-	x += spd.x
+    x += spd.x
     // Clear momentum after
     if(!getState("STATE_FORCE_MOMENTUM") && !getState("STATE_LOCK_MOMENTUM")) {
         spd.x = 0;
@@ -32,7 +39,7 @@ if (spd.x != 0) {
 }
 // Move in the y direction
 if(spd.y != 0) {
-	y += spd.y
+    y += spd.y
     // Clear momentum after
     if(!getState("STATE_FORCE_MOMENTUM") && !getState("STATE_LOCK_MOMENTUM")) {
         spd.y = 0;

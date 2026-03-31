@@ -1,5 +1,7 @@
 /// @description enemy state system
 
+event_inherited();
+
 // check if player exists
 if( instance_exists(ObjectPlayer)) {
 	
