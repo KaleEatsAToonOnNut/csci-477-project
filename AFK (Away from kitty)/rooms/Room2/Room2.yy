@@ -14,6 +14,7 @@
     {"name":"inst_5F475C40","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_61DB6503","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_6C775C08","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_381B1D5F","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -55,8 +56,10 @@
           -2147483648,-4,3,-14,-2147483648,-7,3,-4,0,-16,-2147483648,-7,3,-4,0,-10,-2147483648,-4,3,-16,-2147483648,
           -4,3,-62,-2147483648,-4,3,-16,-2147483648,-4,3,-62,-2147483648,-4,3,-16,-2147483648,-4,3,-62,-2147483648,
           -4,3,-16,-2147483648,-4,3,-62,-2147483648,-4,3,-16,-2147483648,-4,3,-62,-2147483648,-4,3,-16,-2147483648,
-          -4,3,-62,-2147483648,-4,3,-16,-2147483648,-4,3,-62,-2147483648,-4,3,-16,-2147483648,-4,3,-62,-2147483648,
-          -4,3,-16,-2147483648,-4,3,-62,-2147483648,-4,3,-16,-2147483648,-4,3,-62,-2147483648,-4,3,-8,-2147483648,
+          -4,3,-62,-2147483648,-4,3,-16,-2147483648,-4,3,-62,-2147483648,-4,3,-16,-2147483648,-4,3,-18,-2147483648,
+          -3,0,-24,-2147483648,1,0,-6,-2147483648,-4,0,-6,-2147483648,-4,3,-16,-2147483648,-4,3,-2,-2147483648,
+          -7,0,-9,-2147483648,-4,0,-23,-2147483648,-5,0,-2,-2147483648,-7,0,-3,-2147483648,-4,3,-16,-2147483648,
+          -70,3,-8,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"CollisionTile","path":"tilesets/CollisionTile/CollisionTile.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[-4128,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
@@ -68,6 +71,7 @@
         {"$GMRInstance":"v4","%Name":"inst_5F475C40","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5F475C40","objectId":{"name":"box1","path":"objects/box1/box1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.7395834,"scaleY":1.8751025,"x":1163.5,"y":396.00165,},
         {"$GMRInstance":"v4","%Name":"inst_61DB6503","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_61DB6503","objectId":{"name":"ObjectPlayer","path":"objects/ObjectPlayer/ObjectPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":448.0,},
         {"$GMRInstance":"v4","%Name":"inst_6C775C08","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6C775C08","objectId":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":608.0,},
+        {"$GMRInstance":"v4","%Name":"inst_381B1D5F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_381B1D5F","objectId":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":576.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_468473AD","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_468473AD","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.515625,"scaleY":1.7875,"spriteId":{"name":"tile_boxes","path":"sprites/tile_boxes/tile_boxes.yy",},"x":0.0,"y":0.0,},
@@ -248,7 +252,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":250,"hport":768,"hspeed":-1,"hview":300,"inherit":false,"objectId":{"name":"ObjectPlayer","path":"objects/ObjectPlayer/ObjectPlayer.yy",},"vborder":150,"visible":true,"vspeed":-1,"wport":1366,"wview":500,"xport":0,"xview":0,"yport":0,"yview":250,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
@@ -260,7 +264,7 @@
   "viewSettings":{
     "clearDisplayBuffer":true,
     "clearViewBackground":false,
-    "enableViews":false,
+    "enableViews":true,
     "inheritViewSettings":false,
   },
   "volume":1.0,

@@ -2,7 +2,11 @@
 
 if(plr_state == state.IDLE) {
 
-	move_towards_point(random(display_get_width()), random(display_get_height()), moveSpeed)
+    var rX = random(display_get_width());
+    var rY = random(display_get_height());
+    var normal = sqrt(power(rX, 2) + power(rY, 2));
+    spd.x = (rX / normal) * moveSpeed;
+    spd.y = (rY / normal) * moveSpeed;
 
 	idleMoveTime = game_get_speed(gamespeed_fps) * random(1) * 6
 
