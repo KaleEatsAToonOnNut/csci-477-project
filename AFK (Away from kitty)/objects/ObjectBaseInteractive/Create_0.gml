@@ -5,8 +5,8 @@ stateList = {
     STATE_INTERACTION_CALLBACK: 2,
     // Makes the object invulnerable
     STATE_INVULNERABLE: 4,
-    // Locks the offset and rotation to what it is when initalized
-    STATE_LOCK_PARENT: 8
+    // Custom definition, should be used when you don't want attack events to happen
+    STATE_NO_ATTACK: 8
 };
 
 parentStats = {

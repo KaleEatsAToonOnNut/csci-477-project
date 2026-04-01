@@ -2,7 +2,8 @@
 
 if(plr_state == state.IDLE) {
 	
-	speed = 0
+	spd.x = 0;
+    spd.y = 0;
 
 	alarm[1] = idleStopTime
 }
