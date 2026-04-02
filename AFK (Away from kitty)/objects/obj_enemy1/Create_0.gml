@@ -4,7 +4,7 @@ moveSpeed = 3
 atk_spd = 8
 vsp = 0
 hsp = 0
-plr_state = state.IDLE
+nme_state = state.IDLE
 
 enum state {
 	ATTACK,
