@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"overwriteItems",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"overwriteItems",
+  "parent":{
+    "name":"Weapons",
+    "path":"folders/Objects/Items/Weapons.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

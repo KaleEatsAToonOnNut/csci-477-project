@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hasLOS",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hasLOS",
+  "parent":{
+    "name":"Fundamental",
+    "path":"folders/Objects/Fundamental.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

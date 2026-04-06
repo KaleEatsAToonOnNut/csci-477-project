@@ -2,5 +2,6 @@
 event_inherited();
 
 moveSpeed = 4;
+canSeePlayer = false;
 
 addToStateList("STATE_CONTACT_HARM_PLAYER");

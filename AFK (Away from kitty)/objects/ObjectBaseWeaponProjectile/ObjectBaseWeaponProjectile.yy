@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_slash",
-    "path":"sprites/spr_slash/spr_slash.yy",
+    "name":"rat_walk",
+    "path":"sprites/rat_walk/rat_walk.yy",
   },
   "spriteMaskId":null,
   "visible":true,
