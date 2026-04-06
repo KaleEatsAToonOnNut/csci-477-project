@@ -11,8 +11,6 @@ addToStateList("STATE_INTERACTION_PUSHABLE");
 addToStateList("STATE_FROZEN");
 // The object will not zero its momentum after a move step
 addToStateList("STATE_FORCE_MOMENTUM");
-// Do not collide with entities physically
-addToStateList("STATE_NO_COLLIDE");
 // Do not collide with walls physically
 addToStateList("STATE_NO_WALL_COLLIDE");
 // Lock the object's momentum

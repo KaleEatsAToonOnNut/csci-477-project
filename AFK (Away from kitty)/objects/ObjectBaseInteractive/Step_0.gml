@@ -1,3 +1,8 @@
+if(getState("STATE_PAUSED")) {
+    
+    return;
+}
+
 if(hp <= 0) {
     instance_destroy(self);
 }

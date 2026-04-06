@@ -6,7 +6,9 @@ stateList = {
     // Makes the object invulnerable
     STATE_INVULNERABLE: 4,
     // Custom definition, should be used when you don't want attack events to happen
-    STATE_NO_ATTACK: 8
+    STATE_NO_ATTACK: 8,
+    // Pauses everything.
+    STATE_PAUSED: 16,
 };
 
 parentStats = {

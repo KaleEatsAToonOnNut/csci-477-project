@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"ObjectMeleeWeapon",
-  "eventList":[],
+  "%Name":"ObjStaminaBar",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"ObjectMeleeWeapon",
+  "name":"ObjStaminaBar",
   "overriddenProperties":[],
   "parent":{
-    "name":"Weapons",
-    "path":"folders/Objects/Items/Weapons.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
-  "parentObjectId":{
-    "name":"ObjectBaseWeapon",
-    "path":"objects/ObjectBaseWeapon/ObjectBaseWeapon.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
