@@ -10,7 +10,7 @@ if( instance_exists(ObjectPlayer)) {
 	// check if player is within range
 	if(point_distance(plr.x, plr.y, x, y) <= 120 && point_distance(plr.x, plr.y, x, y) > 35) {
 		// attack status
-		plr_state = state.ATTACK
+		nme_state = state.ATTACK
 		
 		if(alarm[2] <= 0) {
             removeState("STATE_FORCE_MOMENTUM");
@@ -33,7 +33,7 @@ if( instance_exists(ObjectPlayer)) {
 		
 	} else if(point_distance(plr.x, plr.y, x, y) < 300 && point_distance(plr.x, plr.y, x, y) > 100) {
 		// move towards player		
-		plr_state = state.APPROACH
+		nme_state = state.APPROACH
 		var normal = sqrt(power(x - plr.x, 2) + power(y - plr.y, 2))
         spd.x = ((plr.x - x) / normal) * moveSpeed;
         spd.y = ((plr.y - y) / normal) * moveSpeed;

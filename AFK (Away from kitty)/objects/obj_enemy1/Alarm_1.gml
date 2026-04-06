@@ -1,6 +1,6 @@
 /// @description idle stop timer
 
-if(plr_state == state.IDLE) {
+if(nme_state == state.IDLE) {
 	
 	spd.x = 0;
     spd.y = 0;

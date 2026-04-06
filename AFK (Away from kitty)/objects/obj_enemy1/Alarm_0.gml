@@ -1,6 +1,6 @@
 /// @description idle move timer
 
-if(plr_state == state.IDLE) {
+if(nme_state == state.IDLE) {
 
     var rX = random(display_get_width());
     var rY = random(display_get_height());
