@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.221",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"AFK (Away from kitty)",
   "resources":[
@@ -70,7 +70,10 @@
     {"id":{"name":"base_soil","path":"sprites/base_soil/base_soil.yy",},},
     {"id":{"name":"base_water","path":"sprites/base_water/base_water.yy",},},
     {"id":{"name":"cat_idle","path":"sprites/cat_idle/cat_idle.yy",},},
+    {"id":{"name":"cat_sleep_v2","path":"sprites/cat_sleep_v2/cat_sleep_v2.yy",},},
+    {"id":{"name":"cat_sleep","path":"sprites/cat_sleep/cat_sleep.yy",},},
     {"id":{"name":"cat_test","path":"sprites/cat_test/cat_test.yy",},},
+    {"id":{"name":"cat_wakeup","path":"sprites/cat_wakeup/cat_wakeup.yy",},},
     {"id":{"name":"cat_walk","path":"sprites/cat_walk/cat_walk.yy",},},
     {"id":{"name":"deadGrass","path":"sprites/deadGrass/deadGrass.yy",},},
     {"id":{"name":"Handling","path":"sprites/Handling/Handling.yy",},},
