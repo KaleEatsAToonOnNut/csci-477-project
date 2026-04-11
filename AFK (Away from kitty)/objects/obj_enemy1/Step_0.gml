@@ -6,9 +6,13 @@ event_inherited();
 if( instance_exists(ObjectPlayer)) {
 	
 	plr = ObjectPlayer
+    if(plr.getState("STATE_DEAD")) {
+        return;
+    }
+    los = hasLOS(self, plr, layer_tilemap_get_id("Collision_Tiles"))
 	
 	// check if player is within range
-	if(point_distance(plr.x, plr.y, x, y) <= 120 && point_distance(plr.x, plr.y, x, y) > 35) {
+	if(point_distance(plr.x, plr.y, x, y) <= 120 && point_distance(plr.x, plr.y, x, y) > 30 && los) {
 		// attack status
 		nme_state = state.ATTACK
 		
@@ -25,13 +29,13 @@ if( instance_exists(ObjectPlayer)) {
             spd.y = moveSpeed * sin(degtorad(direction));
 		}
 		
-	} else if(point_distance(plr.x, plr.y, x, y) <= 35) {
+	} else if(point_distance(plr.x, plr.y, x, y) <= 30) {
 		
 		direction = point_direction(plr.x, plr.y, x, y)
 			spd.x = moveSpeed * cos(degtorad(direction));
             spd.y = moveSpeed * sin(degtorad(direction));
 		
-	} else if(point_distance(plr.x, plr.y, x, y) < 300 && point_distance(plr.x, plr.y, x, y) > 100) {
+	} else if(point_distance(plr.x, plr.y, x, y) < 300 && point_distance(plr.x, plr.y, x, y) > 100 && los) {
 		// move towards player		
 		nme_state = state.APPROACH
 		var normal = sqrt(power(x - plr.x, 2) + power(y - plr.y, 2))

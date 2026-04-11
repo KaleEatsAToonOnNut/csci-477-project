@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2024.14.4.221",
   },
   "name":"AFK (Away from kitty)",
   "resources":[
@@ -51,6 +51,7 @@
     {"id":{"name":"ObjectBoxTest","path":"objects/ObjectBoxTest/ObjectBoxTest.yy",},},
     {"id":{"name":"ObjectButton","path":"objects/ObjectButton/ObjectButton.yy",},},
     {"id":{"name":"ObjectElementUI","path":"objects/ObjectElementUI/ObjectElementUI.yy",},},
+    {"id":{"name":"ObjectEnemySlime","path":"objects/ObjectEnemySlime/ObjectEnemySlime.yy",},},
     {"id":{"name":"ObjectInventoryManager","path":"objects/ObjectInventoryManager/ObjectInventoryManager.yy",},},
     {"id":{"name":"ObjectPlayer","path":"objects/ObjectPlayer/ObjectPlayer.yy",},},
     {"id":{"name":"ObjectRoomTransition","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},},

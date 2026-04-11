@@ -4,6 +4,7 @@ function getWeaponInfo(weaponName){
             name: "Default",
             minDamage: 5,
             damageRange: 5,
+            weaponRange: 10,
             ranged: false,
             width: 1,
             height: 1,
@@ -20,6 +21,19 @@ function getWeaponInfo(weaponName){
             ranged: false,
             width: 2,
             height: 2
+        },
+        contact: {
+            name: "Contact Damage",
+            minDamage: 15,
+            isVisible: false,
+            staminaCost: 5  
+        },
+        staff: {
+            name: "Magic Staff",
+            minDamage: 43,
+            damageRange: 30,
+            ranged: true,
+            staminaCost: 30
         }
     }
     var output = weaponInfoList._default;

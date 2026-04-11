@@ -6,3 +6,7 @@ if(hasLOS(self, ObjectPlayer, tilemap_id)) {
 } else {
     canSeePlayer = false;
 }
+
+if(getState("STATE_DEAD")) {
+    instance_destroy(self);
+}
