@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy1_placeholder",
-    "path":"sprites/spr_enemy1_placeholder/spr_enemy1_placeholder.yy",
+    "name":"rat_idle",
+    "path":"sprites/rat_idle/rat_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

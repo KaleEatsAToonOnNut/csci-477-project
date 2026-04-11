@@ -4,14 +4,7 @@ moveSpeed = 3
 atk_spd = 8
 vsp = 0
 hsp = 0
-plr_state = state.IDLE
-
-enum state {
-	ATTACK,
-	IDLE,
-	SURROUND,
-	APPROACH
-}
+nme_state = state.IDLE
 
 idleMoveTime = game_get_speed(gamespeed_fps) * 1
 idleStopTime = game_get_speed(gamespeed_fps) * 1

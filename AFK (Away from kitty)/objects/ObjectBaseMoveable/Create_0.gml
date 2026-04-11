@@ -11,8 +11,6 @@ addToStateList("STATE_INTERACTION_PUSHABLE");
 addToStateList("STATE_FROZEN");
 // The object will not zero its momentum after a move step
 addToStateList("STATE_FORCE_MOMENTUM");
-// Do not collide with entities physically
-addToStateList("STATE_NO_COLLIDE");
 // Do not collide with walls physically
 addToStateList("STATE_NO_WALL_COLLIDE");
 // Lock the object's momentum
@@ -37,7 +35,7 @@ knockback = {
     y: 0
 }
 
-knockbackTiming = 20;
+knockbackTiming = 20 * (1 - knockResistance);
 
 // Add speed to this object
 function addSpeed(otherSpeed) {
@@ -47,13 +45,12 @@ function addSpeed(otherSpeed) {
 
 
 function applyKnockback(strength, direction) {
-    with(knockback) {
-        x = strength * cos(direction);
-        y = strength * sin(direction);
-    }
+    knockback.x = strength * cos(direction) * (1 - knockResistance);
+    knockback.y = strength * sin(direction) * (1 - knockResistance);
     if(alarm[11] == -1) {
         alarm[11] = knockbackTiming;
         image_alpha = 0.5;
         setState("STATE_INVULNERABLE");
+        setState("STATE_NO_ATTACK");
     }
 }

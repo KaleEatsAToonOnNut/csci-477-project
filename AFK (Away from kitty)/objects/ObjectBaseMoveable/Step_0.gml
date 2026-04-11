@@ -15,18 +15,21 @@ if(knockback.x != 0 || knockback.y != 0) {
     spd.y = knockback.y;
 }
 
-if (place_meeting(x + spd.x, y, tilemap_id)) {
-		while (!place_meeting(x + sign(spd.x), y, tilemap_id)) {
-			x += sign(spd.x);
-		}
-		spd.x = 0;
-}
-
-if (place_meeting(x, y + spd.y, tilemap_id)) {
-		while (!place_meeting(x, y + sign(spd.y), tilemap_id)) {
-			y += sign(spd.y);
-		}
-		spd.y = 0;
+// Wall collisions
+if(!getState("STATE_NO_WALL_COLLIDE")) {
+    if (place_meeting(x + spd.x, y, tilemap_id)) {
+    		while (!place_meeting(x + sign(spd.x), y, tilemap_id)) {
+    			x += sign(spd.x);
+    		}
+    		spd.x = 0;
+    }
+    
+    if (place_meeting(x, y + spd.y, tilemap_id)) {
+    		while (!place_meeting(x, y + sign(spd.y), tilemap_id)) {
+    			y += sign(spd.y);
+    		}
+    		spd.y = 0;
+    }
 }
 
 // Move in the x direction
