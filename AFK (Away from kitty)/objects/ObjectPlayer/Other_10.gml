@@ -1,0 +1,1 @@
+sprite_index = cat_walk
