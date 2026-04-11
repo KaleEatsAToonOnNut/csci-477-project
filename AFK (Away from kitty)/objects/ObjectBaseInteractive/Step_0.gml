@@ -4,6 +4,7 @@ if(getState("STATE_PAUSED") || getState("STATE_DEAD")) {
 
 if(hp <= 0) {
     setState("STATE_DEAD");
+    event_user(0);
 }
 
 if(parent != noone) {

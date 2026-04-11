@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ini_write_array",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ini_write_array",
+  "parent":{
+    "name":"SaveSystem",
+    "path":"folders/Objects/Fundamental/SaveSystem.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

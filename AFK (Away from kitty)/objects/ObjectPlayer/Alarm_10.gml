@@ -3,6 +3,9 @@ if(stamina < max_stamina) {
 }
 
 if(getState("STATE_SLEEPING")) {
+    if(hp < max_hp) {
+        hp += 1;
+    }
     alarm[10] = staminaRegenRate[3];
 } else if(getState("STATE_DASHING")) {
     alarm[10] = staminaRegenRate[2];

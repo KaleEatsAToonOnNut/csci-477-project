@@ -1,1 +1,1 @@
-sprite_index = cat_walk
+sprite_index = cat_sleep;
