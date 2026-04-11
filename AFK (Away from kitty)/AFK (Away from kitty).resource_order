@@ -31,6 +31,7 @@
     {"name":"ObjectBoxTest","order":5,"path":"objects/ObjectBoxTest/ObjectBoxTest.yy",},
     {"name":"ObjectButton","order":4,"path":"objects/ObjectButton/ObjectButton.yy",},
     {"name":"ObjectElementUI","order":5,"path":"objects/ObjectElementUI/ObjectElementUI.yy",},
+    {"name":"ObjectEnemySlime","order":1,"path":"objects/ObjectEnemySlime/ObjectEnemySlime.yy",},
     {"name":"ObjectPlayer","order":4,"path":"objects/ObjectPlayer/ObjectPlayer.yy",},
     {"name":"ObjectRoomTransition","order":1,"path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},
     {"name":"ObjHealthBar","order":1,"path":"objects/ObjHealthBar/ObjHealthBar.yy",},

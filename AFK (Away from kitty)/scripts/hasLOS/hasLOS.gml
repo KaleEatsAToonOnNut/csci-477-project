@@ -1,5 +1,5 @@
 function hasLOS(objOne, objTwo, blockers, steps=10){
-    if(!instance_exists(objOne) || !instance_exists(objTwo) || !instance_exists(blockers)) {
+    if(!instance_exists(objOne) || !instance_exists(objTwo)) {
         return false;
     }
     pos = {

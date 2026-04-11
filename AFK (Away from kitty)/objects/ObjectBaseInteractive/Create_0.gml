@@ -1,14 +1,14 @@
 stateList = {
-    // Mandates the other must press E to interact
-    STATE_E_FOR_INTERACTION: 1,
-    // Sets the object to trigger a callback function when interacted with
-    STATE_INTERACTION_CALLBACK: 2,
     // Makes the object invulnerable
-    STATE_INVULNERABLE: 4,
+    STATE_INVULNERABLE: 1,
+    // Tells other objects to not interact with this object
+    STATE_DEAD: 2,
     // Custom definition, should be used when you don't want attack events to happen
-    STATE_NO_ATTACK: 8,
+    STATE_NO_ATTACK: 4,
     // Pauses everything.
-    STATE_PAUSED: 16,
+    STATE_PAUSED: 8,
+    // Makes it so that the scale of this sprite adheres to the scale of the parent
+    STATE_PARENT_SCALE: 16
 };
 
 parentStats = {
@@ -72,28 +72,4 @@ function damage(value) {
     if(hp == 0) {
         instance_destroy(self);
     }
-}
-
-// Handle interactions
-function interaction(other) {
-    
-    if(other.getState("STATE_INTERACTION_CALLBACK") && other.alarm[0] <= 0) {
-        if(other.callbackTimer > 0) {
-            show_debug_message(other.callbackTimer);
-            other.alarm[0] = other.callbackTimer;
-        } else {
-            with (other) {
-                event_user(0);
-            }
-        }
-    }
-}
-
-readyToInteract = [];
-
-function checkInteractionList(object) {
-    if(readyToInteract.array_contains(object)) {
-        return true;
-    }
-    return false;
 }

@@ -1,6 +1,9 @@
 // Inherit the parent event
 event_inherited();
-setState("STATE_INVULNERABLE")
+
+addToStateList("STATE_MULTIATTACK");
+
+setState("STATE_INVULNERABLE");
 attacked = [];
 ranged = false;
 
@@ -13,6 +16,7 @@ function overrideWeaponData(data) {
     minDamage = data.minDamage;
     damageRange = data.damageRange;
     knockpower = data.knockback;
+    visible = data.isVisible;
 }
 
-alarm[0] = lifetime;
+alarm[1] = lifetime;

@@ -1,4 +1,4 @@
-if(other == parent || array_contains(attacked, other)) {
+if(other == parent || (array_contains(attacked, other) && !getState("STATE_MULTIATTACK"))) {
     return;
 }
 

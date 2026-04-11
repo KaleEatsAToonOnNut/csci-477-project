@@ -6,6 +6,10 @@ event_inherited();
 if( instance_exists(ObjectPlayer)) {
 	
 	plr = ObjectPlayer
+    if(plr.getState("STATE_DEAD")) {
+        return;
+    }
+    los = hasLOS(self, plr, layer_tilemap_get_id("Collision_Tiles"))
 	
 	// check if player is within range
 	if(point_distance(plr.x, plr.y, x, y) <= 117 && point_distance(plr.x, plr.y, x, y) > 30) {
