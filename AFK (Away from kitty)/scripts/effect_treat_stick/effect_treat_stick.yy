@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"effect_treat_stick",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"effect_treat_stick",
+  "parent":{
+    "name":"Effects",
+    "path":"folders/Objects/Items/Effects.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

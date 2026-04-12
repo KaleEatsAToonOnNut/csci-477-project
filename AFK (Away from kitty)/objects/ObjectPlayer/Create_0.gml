@@ -10,12 +10,13 @@ addToStateList("STATE_ATTACKING");
 
 moveSpeed = 4;
 //Stamina regeneration rates for standing still, walking, and dashing (also health and stamina regen for sleeping)
-staminaRegenRate = [4, 8, 28, 10];
+staminaRegenRate = [4, 8, 28, 2];
 alarm[10] = staminaRegenRate[0];
 
 max_hp = hp;
 stamina = max_stamina;
 dashSpeed = 16;
+saveName = "placeholder.ini"
 
 currentWeapon = "claws"
 
@@ -25,5 +26,8 @@ directions = {
 }
 
 function catnap() {
-    
+    setState("STATE_SLEEPING");
+    sprite_index = cat_sleep;
+    image_index = 0;
+    writeSaveFile(saveName, true);
 }

@@ -17,13 +17,8 @@ global.item_list = {
     "Treat_stick", 
     "The greatest offering a human can give. With just a little squeeze, all complaints fade away. Recover HP.", 
     spr_treat_stick,
-    function() {
-        ObjectPlayer.hp += 10;
-        //get rid of the items
-        array_delete(inv, selected_item, 1);}
-),
-
-
+    effect_treat_stick
+    )
 }
 
 //create the inventory

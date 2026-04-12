@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_name",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_name",
+  "parent":{
+    "name":"SaveSystem",
+    "path":"folders/Objects/Fundamental/SaveSystem.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

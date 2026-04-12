@@ -1,5 +1,14 @@
-if(!getState("STATE_LOCK_MOMENTUM") && !getState("STATE_DEAD")) {
-    
+if(keyboard_check(ord("E"))) {
+    return;
+}
+
+if(getState("STATE_SLEEPING") && sprite_index == cat_sleep_v2) {
+    sprite_index = cat_wakeup;
+    image_index = 0;
+}
+
+if(!getState("STATE_LOCK_MOMENTUM") && !getState("STATE_DEAD") && !getState("STATE_SLEEPING")) {
+        
     if(keyboard_check(vk_left) || keyboard_check(ord("A"))) {
         spd.x = -moveSpeed;
         image_xscale = -1;
