@@ -12,13 +12,13 @@ if( instance_exists(ObjectPlayer)) {
     los = hasLOS(self, plr, layer_tilemap_get_id("Collision_Tiles"))
 	
 	// check if player is within range
-	if(point_distance(plr.x, plr.y, x, y) <= 117 && point_distance(plr.x, plr.y, x, y) > 30) {
+	if(point_distance(plr.x, plr.y, x, y) <= middleRad && point_distance(plr.x, plr.y, x, y) > innerRad) {
 		// attack status
 		nme_state = state.ATTACK
 		
 		sprite_index = rat_walk
 		
-	} else if(point_distance(plr.x, plr.y, x, y) <= 30) {
+	} else if(point_distance(plr.x, plr.y, x, y) <= innerRad) {
 		
 		sprite_index = rat_walk
 		
@@ -26,7 +26,7 @@ if( instance_exists(ObjectPlayer)) {
 			spd.x = moveSpeed * cos(degtorad(direction));
             spd.y = moveSpeed * sin(degtorad(direction));
 		
-	} else if(point_distance(plr.x, plr.y, x, y) < 300 && point_distance(plr.x, plr.y, x, y) > 120) {
+	} else if(point_distance(plr.x, plr.y, x, y) < outerRad && point_distance(plr.x, plr.y, x, y) > middleRad + 3) {
 		
 		sprite_index = rat_idle
 		
@@ -36,7 +36,7 @@ if( instance_exists(ObjectPlayer)) {
         spd.x = ((plr.x - x) / normal) * moveSpeed;
         spd.y = ((plr.y - y) / normal) * moveSpeed;
 		
-	} else if((point_distance(plr.x, plr.y, x, y) > 115 && point_distance(plr.x, plr.y, x, y) < 120)) {
+	} else if((point_distance(plr.x, plr.y, x, y) > middleRad - 2 && point_distance(plr.x, plr.y, x, y) < middleRad + 3)) {
 		
 		sprite_index = rat_windup
 		

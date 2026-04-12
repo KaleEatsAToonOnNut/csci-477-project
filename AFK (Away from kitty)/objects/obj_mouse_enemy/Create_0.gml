@@ -1,5 +1,9 @@
 event_inherited();
 
+innerRad = 15
+middleRad = 117
+outerRad = 300
+
 moveSpeed = 3
 atk_spd = 8
 vsp = 0
