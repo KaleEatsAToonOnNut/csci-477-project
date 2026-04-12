@@ -10,7 +10,7 @@ if( instance_exists(ObjectPlayer)) {
 	// check if player is within range
 	
 	if( attacked ) {
-		image_index = spr_explode40
+		sprite_index = spr_explode40
 	} else if(point_distance(plr.x, plr.y, x, y) <= 120 && point_distance(plr.x, plr.y, x, y) > 35) {
 		// attack status
 		nme_state = state.ATTACK
