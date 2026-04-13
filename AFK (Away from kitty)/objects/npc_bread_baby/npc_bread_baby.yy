@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_speakblock",
+  "%Name":"npc_bread_baby",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_speakblock",
+  "name":"npc_bread_baby",
   "overriddenProperties":[],
   "parent":{
     "name":"Dialogue System",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_speakblock",
-    "path":"sprites/spr_speakblock/spr_speakblock.yy",
+    "name":"npc1",
+    "path":"sprites/npc1/npc1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
