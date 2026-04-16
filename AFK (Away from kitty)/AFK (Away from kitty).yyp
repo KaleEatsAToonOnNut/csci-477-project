@@ -11,7 +11,6 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Dialogue System","folderPath":"folders/Dialogue System.yy","name":"Dialogue System","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Objects/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fundamental","folderPath":"folders/Objects/Fundamental.yy","name":"Fundamental","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -23,6 +22,7 @@
     {"$GMFolder":"","%Name":"TopDown","folderPath":"folders/Objects/TopDown.yy","name":"TopDown","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BaseObjects","folderPath":"folders/Objects/TopDown/BaseObjects.yy","name":"BaseObjects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Objects/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"items","folderPath":"folders/Sprites/items.yy","name":"items","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"stage1","folderPath":"folders/Sprites/stage1.yy","name":"stage1","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -68,6 +68,7 @@
     {"id":{"name":"ObjitemOverworld","path":"objects/ObjitemOverworld/ObjitemOverworld.yy",},},
     {"id":{"name":"ObjPauseMenu","path":"objects/ObjPauseMenu/ObjPauseMenu.yy",},},
     {"id":{"name":"ObjStaminaBar","path":"objects/ObjStaminaBar/ObjStaminaBar.yy",},},
+    {"id":{"name":"BossArena","path":"rooms/BossArena/BossArena.yy",},},
     {"id":{"name":"IndoorSupplyClosetRoom","path":"rooms/IndoorSupplyClosetRoom/IndoorSupplyClosetRoom.yy",},},
     {"id":{"name":"OutsideSupplyCloset","path":"rooms/OutsideSupplyCloset/OutsideSupplyCloset.yy",},},
     {"id":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
@@ -146,6 +147,7 @@
     {"roomId":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},},
     {"roomId":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
     {"roomId":{"name":"IndoorSupplyClosetRoom","path":"rooms/IndoorSupplyClosetRoom/IndoorSupplyClosetRoom.yy",},},
+    {"roomId":{"name":"BossArena","path":"rooms/BossArena/BossArena.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
