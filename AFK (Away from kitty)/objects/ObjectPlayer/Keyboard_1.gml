@@ -1,7 +1,3 @@
-if(keyboard_check(ord("E"))) {
-    return;
-}
-
 if(getState("STATE_SLEEPING") && sprite_index == cat_sleep_v2) {
     sprite_index = cat_wakeup;
     image_index = 0;

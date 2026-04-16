@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Dialogue System","folderPath":"folders/Dialogue System.yy","name":"Dialogue System","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Objects/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fundamental","folderPath":"folders/Objects/Fundamental.yy","name":"Fundamental","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -32,7 +33,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2024.14.4.221",
   },
   "name":"AFK (Away from kitty)",
   "resources":[
@@ -67,9 +68,10 @@
     {"id":{"name":"ObjitemOverworld","path":"objects/ObjitemOverworld/ObjitemOverworld.yy",},},
     {"id":{"name":"ObjPauseMenu","path":"objects/ObjPauseMenu/ObjPauseMenu.yy",},},
     {"id":{"name":"ObjStaminaBar","path":"objects/ObjStaminaBar/ObjStaminaBar.yy",},},
+    {"id":{"name":"IndoorSupplyClosetRoom","path":"rooms/IndoorSupplyClosetRoom/IndoorSupplyClosetRoom.yy",},},
+    {"id":{"name":"OutsideSupplyCloset","path":"rooms/OutsideSupplyCloset/OutsideSupplyCloset.yy",},},
     {"id":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},},
     {"id":{"name":"effect_treat_stick","path":"scripts/effect_treat_stick/effect_treat_stick.yy",},},
     {"id":{"name":"get_name","path":"scripts/get_name/get_name.yy",},},
@@ -139,10 +141,11 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"OutsideSupplyCloset","path":"rooms/OutsideSupplyCloset/OutsideSupplyCloset.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},},
     {"roomId":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
+    {"roomId":{"name":"IndoorSupplyClosetRoom","path":"rooms/IndoorSupplyClosetRoom/IndoorSupplyClosetRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

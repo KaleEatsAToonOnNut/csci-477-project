@@ -85,7 +85,7 @@ function scr_text(_text){
        //npc
        case "npc":
             speaker_sprite[page_number] = npc_test;
-            txtb_spr[page_number] = spr_textbox_npc; 
+            txtb_spr[page_number] = spr_textbox_npc;
        break;    
         //add other emotion or character info here
        }

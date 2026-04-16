@@ -3,3 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
+
+function applyKnockback(strength, direction) {
+    // Lol, you thought.
+}

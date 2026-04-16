@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Dialogue System","order":5,"path":"folders/Dialogue System.yy",},
+    {"name":"Rooms","order":8,"path":"folders/Rooms.yy",},
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
     {"name":"Enemies","order":17,"path":"folders/Objects/Enemies.yy",},
     {"name":"Fundamental","order":15,"path":"folders/Objects/Fundamental.yy",},
@@ -43,8 +44,9 @@
     {"name":"ObjitemOverworld","order":3,"path":"objects/ObjitemOverworld/ObjitemOverworld.yy",},
     {"name":"ObjPauseMenu","order":3,"path":"objects/ObjPauseMenu/ObjPauseMenu.yy",},
     {"name":"ObjStaminaBar","order":2,"path":"objects/ObjStaminaBar/ObjStaminaBar.yy",},
-    {"name":"Room2","order":3,"path":"rooms/Room2/Room2.yy",},
-    {"name":"Stage1","order":6,"path":"rooms/Stage1/Stage1.yy",},
+    {"name":"IndoorSupplyClosetRoom","order":3,"path":"rooms/IndoorSupplyClosetRoom/IndoorSupplyClosetRoom.yy",},
+    {"name":"OutsideSupplyCloset","order":1,"path":"rooms/OutsideSupplyCloset/OutsideSupplyCloset.yy",},
+    {"name":"Stage1","order":2,"path":"rooms/Stage1/Stage1.yy",},
     {"name":"getWeaponInfo","order":4,"path":"scripts/getWeaponInfo/getWeaponInfo.yy",},
     {"name":"hasLOS","order":3,"path":"scripts/hasLOS/hasLOS.yy",},
     {"name":"ini_read_array","order":1,"path":"scripts/ini_read_array/ini_read_array.yy",},
