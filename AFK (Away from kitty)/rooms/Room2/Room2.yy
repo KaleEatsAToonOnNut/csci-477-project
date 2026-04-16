@@ -26,6 +26,7 @@
     {"name":"inst_516C5A04","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_3714368B","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_56842F14","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_5B1D31D","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -94,6 +95,7 @@
         {"$GMRInstance":"v4","%Name":"inst_516C5A04","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_516C5A04","objectId":{"name":"npc_chief_cheese","path":"objects/npc_chief_cheese/npc_chief_cheese.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.8,"scaleY":1.8,"x":672.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_3714368B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3714368B","objectId":{"name":"npc_mozerella","path":"objects/npc_mozerella/npc_mozerella.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.8,"scaleY":1.8,"x":928.0,"y":32.0,},
         {"$GMRInstance":"v4","%Name":"inst_56842F14","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56842F14","objectId":{"name":"npc_bread_baby","path":"objects/npc_bread_baby/npc_bread_baby.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.8,"scaleY":1.8,"x":288.0,"y":128.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5B1D31D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B1D31D","objectId":{"name":"obj_heatSeekigMissile","path":"objects/obj_heatSeekigMissile/obj_heatSeekigMissile.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":704.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_468473AD","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_468473AD","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.515625,"scaleY":1.7875,"spriteId":{"name":"tile_boxes","path":"sprites/tile_boxes/tile_boxes.yy",},"x":0.0,"y":0.0,},

@@ -1,3 +1,3 @@
 /// @description die
 
-instance_destroy(id, )
+instance_destroy(id, this)
