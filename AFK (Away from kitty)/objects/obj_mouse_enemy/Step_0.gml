@@ -11,13 +11,14 @@ if( instance_exists(ObjectPlayer)) {
     }
     los = hasLOS(self, plr, layer_tilemap_get_id("Collision_Tiles"))
 	
-	// check if player is within range
+		// middle radius behavior
 	if(point_distance(plr.x, plr.y, x, y) <= middleRad && point_distance(plr.x, plr.y, x, y) > innerRad) {
 		// attack status
 		nme_state = state.ATTACK
 		
 		sprite_index = rat_walk
 		
+		// inner radius behavior
 	} else if(point_distance(plr.x, plr.y, x, y) <= innerRad) {
 		
 		sprite_index = rat_walk
@@ -26,6 +27,7 @@ if( instance_exists(ObjectPlayer)) {
 			spd.x = moveSpeed * cos(degtorad(direction));
             spd.y = moveSpeed * sin(degtorad(direction));
 		
+		// outer radius behavior
 	} else if(point_distance(plr.x, plr.y, x, y) < outerRad && point_distance(plr.x, plr.y, x, y) > middleRad + 3) {
 		
 		sprite_index = rat_idle
@@ -36,6 +38,7 @@ if( instance_exists(ObjectPlayer)) {
         spd.x = ((plr.x - x) / normal) * moveSpeed;
         spd.y = ((plr.y - y) / normal) * moveSpeed;
 		
+		// outside radius bahavior
 	} else if((point_distance(plr.x, plr.y, x, y) > middleRad - 2 && point_distance(plr.x, plr.y, x, y) < middleRad + 3)) {
 		
 		sprite_index = rat_windup
@@ -52,6 +55,8 @@ if( instance_exists(ObjectPlayer)) {
 		} else if(alarm[2] < attackTimer - 0.4 ){
             setState("STATE_FORCE_MOMENTUM");
 			direction = point_direction(plr.x, plr.y, x, y) + 93
+			
+			// these lines make the ai very jittery so prob don't use them lol
 			//spd.x = moveSpeed * cos(degtorad(direction));
             //spd.y = moveSpeed * sin(degtorad(direction));
 		}
