@@ -46,7 +46,7 @@ function addSpeed(otherSpeed) {
 
 function applyKnockback(strength, direction) {
     knockback.x = strength * cos(direction) * (1 - knockResistance);
-    knockback.y = strength * sin(direction) * (1 - knockResistance);
+    knockback.y = strength * -sin(direction) * (1 - knockResistance);
     if(alarm[11] == -1) {
         alarm[11] = knockbackTiming;
         image_alpha = 0.5;

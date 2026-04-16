@@ -6,6 +6,7 @@ function getWeaponInfo(weaponName){
             damageRange: 5,
             weaponRange: 10,
             ranged: false,
+            projectileSpeed: 10,
             width: 1,
             height: 1,
             spriteOverride: spr_slash,
@@ -40,7 +41,9 @@ function getWeaponInfo(weaponName){
             minDamage: 10,
             damageRange: 10,
             ranged: true,
-            staminaCost: 30
+            staminaCost: 30,
+            lifetime: 10000,
+            spriteOverride: spr_treat_stick
         }
     }
     var output = weaponInfoList._default;
