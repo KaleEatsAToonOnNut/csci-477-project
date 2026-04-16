@@ -27,6 +27,7 @@
     {"name":"inst_609D9509","path":"rooms/OutsideSupplyCloset/OutsideSupplyCloset.yy",},
     {"name":"inst_CA507E","path":"rooms/OutsideSupplyCloset/OutsideSupplyCloset.yy",},
     {"name":"inst_3AC907A8","path":"rooms/OutsideSupplyCloset/OutsideSupplyCloset.yy",},
+    {"name":"inst_67C31C33","path":"rooms/OutsideSupplyCloset/OutsideSupplyCloset.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -106,6 +107,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjectRoomTransition","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},"propertyId":{"name":"roomTo","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},"resource":{"name":"IndoorSupplyClosetRoom","path":"rooms/IndoorSupplyClosetRoom/IndoorSupplyClosetRoom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"IndoorSupplyClosetRoom",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjectRoomTransition","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},"propertyId":{"name":"dir","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"90",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":245.75,"y":341.00165,},
+        {"$GMRInstance":"v4","%Name":"inst_67C31C33","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_67C31C33","objectId":{"name":"obj_heatSeekigMissile","path":"objects/obj_heatSeekigMissile/obj_heatSeekigMissile.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":672.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_468473AD","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_468473AD","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.515625,"scaleY":1.7875,"spriteId":{"name":"tile_boxes","path":"sprites/tile_boxes/tile_boxes.yy",},"x":0.0,"y":0.0,},

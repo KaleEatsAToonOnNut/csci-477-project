@@ -34,6 +34,13 @@ function getWeaponInfo(weaponName){
             damageRange: 30,
             ranged: true,
             staminaCost: 30
+        },
+		cheese: {
+            name: "Cheese",
+            minDamage: 10,
+            damageRange: 10,
+            ranged: true,
+            staminaCost: 30
         }
     }
     var output = weaponInfoList._default;

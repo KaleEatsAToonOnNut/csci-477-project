@@ -19,7 +19,7 @@ if( instance_exists(ObjectPlayer)) {
 		if(alarm[2] <= 0) {
             removeState("STATE_FORCE_MOMENTUM");
 			alarm[2] = attackTimer
-		} else if(alarm[2] < attackTimer - 0.4 ){
+		} else if(alarm[2] < attackTimer - 3 ){
             setState("STATE_FORCE_MOMENTUM");
 		}
 		
@@ -63,4 +63,8 @@ if( instance_exists(ObjectPlayer)) {
 		plr_state = state.IDLE
 		}
 	}
+	
+	//direction = point_direction(plr.x, plr.y, x, y)
+	
+	
 }
