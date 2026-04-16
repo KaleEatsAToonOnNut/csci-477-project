@@ -17,6 +17,7 @@ max_hp = hp;
 stamina = max_stamina;
 dashSpeed = 16;
 saveName = "placeholder.ini"
+ptpid = 0;
 
 currentWeapon = "claws"
 
