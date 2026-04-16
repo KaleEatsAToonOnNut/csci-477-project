@@ -132,7 +132,12 @@ if accept_key
         //link text for options    
         if option_number > 0 {
             create_textbox(option_link_id[option_pos]);
-        }    
+        } else {
+            if(instance_exists(ObjectPlayer)) {
+                ObjectPlayer.removeState("STATE_FROZEN");
+            }   
+        }
+            
     	instance_destroy();
         }
     }

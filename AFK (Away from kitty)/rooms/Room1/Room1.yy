@@ -21,8 +21,8 @@
   ],
   "name":"Room1",
   "parent":{
-    "name":"AFK (Away from kitty)",
-    "path":"AFK (Away from kitty).yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
