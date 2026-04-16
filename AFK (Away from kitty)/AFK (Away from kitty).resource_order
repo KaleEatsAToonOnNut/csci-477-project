@@ -44,6 +44,7 @@
     {"name":"ObjitemOverworld","order":3,"path":"objects/ObjitemOverworld/ObjitemOverworld.yy",},
     {"name":"ObjPauseMenu","order":3,"path":"objects/ObjPauseMenu/ObjPauseMenu.yy",},
     {"name":"ObjStaminaBar","order":2,"path":"objects/ObjStaminaBar/ObjStaminaBar.yy",},
+    {"name":"BossArena","order":4,"path":"rooms/BossArena/BossArena.yy",},
     {"name":"IndoorSupplyClosetRoom","order":3,"path":"rooms/IndoorSupplyClosetRoom/IndoorSupplyClosetRoom.yy",},
     {"name":"OutsideSupplyCloset","order":1,"path":"rooms/OutsideSupplyCloset/OutsideSupplyCloset.yy",},
     {"name":"Stage1","order":2,"path":"rooms/Stage1/Stage1.yy",},
