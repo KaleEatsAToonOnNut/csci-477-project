@@ -1,6 +1,8 @@
 // Inherit ObjectBaseMoveable
 event_inherited();
 
+depth = -1
+
 addToStateList("STATE_SLEEPING");
 addToStateList("STATE_DASHING");
 addToStateList("STATE_MOVING");

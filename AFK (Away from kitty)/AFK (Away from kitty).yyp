@@ -72,6 +72,7 @@
     {"id":{"name":"IndoorSupplyClosetRoom","path":"rooms/IndoorSupplyClosetRoom/IndoorSupplyClosetRoom.yy",},},
     {"id":{"name":"OutsideSupplyCloset","path":"rooms/OutsideSupplyCloset/OutsideSupplyCloset.yy",},},
     {"id":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
+    {"id":{"name":"RoadToBoss","path":"rooms/RoadToBoss/RoadToBoss.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},},
     {"id":{"name":"effect_treat_stick","path":"scripts/effect_treat_stick/effect_treat_stick.yy",},},
@@ -148,6 +149,7 @@
     {"roomId":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
     {"roomId":{"name":"IndoorSupplyClosetRoom","path":"rooms/IndoorSupplyClosetRoom/IndoorSupplyClosetRoom.yy",},},
     {"roomId":{"name":"BossArena","path":"rooms/BossArena/BossArena.yy",},},
+    {"roomId":{"name":"RoadToBoss","path":"rooms/RoadToBoss/RoadToBoss.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

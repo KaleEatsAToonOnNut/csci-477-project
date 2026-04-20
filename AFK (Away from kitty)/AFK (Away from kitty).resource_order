@@ -47,6 +47,7 @@
     {"name":"BossArena","order":4,"path":"rooms/BossArena/BossArena.yy",},
     {"name":"IndoorSupplyClosetRoom","order":3,"path":"rooms/IndoorSupplyClosetRoom/IndoorSupplyClosetRoom.yy",},
     {"name":"OutsideSupplyCloset","order":1,"path":"rooms/OutsideSupplyCloset/OutsideSupplyCloset.yy",},
+    {"name":"RoadToBoss","order":5,"path":"rooms/RoadToBoss/RoadToBoss.yy",},
     {"name":"Stage1","order":2,"path":"rooms/Stage1/Stage1.yy",},
     {"name":"getWeaponInfo","order":4,"path":"scripts/getWeaponInfo/getWeaponInfo.yy",},
     {"name":"hasLOS","order":3,"path":"scripts/hasLOS/hasLOS.yy",},
