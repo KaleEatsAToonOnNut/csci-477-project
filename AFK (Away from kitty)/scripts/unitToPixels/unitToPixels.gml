@@ -1,6 +1,7 @@
 function unitToPixels(unit){
     var unitsList = {
         "in": 96,
+        "hin": 48,
         "px": 1,
         "pt": 72,
         "pc": 6,
