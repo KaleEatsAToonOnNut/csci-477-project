@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"UIScriptQuit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"UIScriptQuit",
+  "parent":{
+    "name":"UIScripts",
+    "path":"folders/Objects/UI/UIScripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

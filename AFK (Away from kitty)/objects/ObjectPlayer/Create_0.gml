@@ -27,10 +27,3 @@ directions = {
     x: 0,
     y: 0
 }
-
-function catnap() {
-    setState("STATE_SLEEPING");
-    sprite_index = cat_sleep;
-    image_index = 0;
-    writeSaveFile(saveName, true);
-}

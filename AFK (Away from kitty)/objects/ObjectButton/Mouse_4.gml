@@ -1,1 +1,0 @@
-script_execute(asset_get_index(callback));
