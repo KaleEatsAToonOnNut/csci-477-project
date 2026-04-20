@@ -3,7 +3,7 @@
   "%Name":"spr_CollisionX",
   "bboxMode":0,
   "bbox_bottom":15,
-  "bbox_left":48,
+  "bbox_left":32,
   "bbox_right":63,
   "bbox_top":0,
   "collisionKind":1,
