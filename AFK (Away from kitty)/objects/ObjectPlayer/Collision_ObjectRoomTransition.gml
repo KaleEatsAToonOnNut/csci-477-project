@@ -1,3 +1,4 @@
 if(other.roomTo != noone && other.enabled) {
-    room_goto(other.roomTo);
+    ptpid = other.tpid
+	room_goto(other.roomTo);
 }

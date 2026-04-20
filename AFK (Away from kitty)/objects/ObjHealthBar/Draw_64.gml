@@ -32,5 +32,7 @@ if (instance_exists(ObjectPlayer)) {
     // text
     draw_set_font(global.font_main);
     draw_set_color(c_white);
-    draw_text(px + 55, py + 5, string(p.hp) + " / " + string(p.max_hp));
+	disp_hp = string(p.hp)
+	if (p.hp < 0) disp_hp = "0"
+    draw_text(px + 55, py + 5, disp_hp + " / " + string(p.max_hp));
 }
