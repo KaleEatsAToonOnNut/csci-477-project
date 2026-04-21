@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"commandList",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"commandList",
+  "parent":{
+    "name":"DebugConsole",
+    "path":"folders/Objects/Fundamental/DebugConsole.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

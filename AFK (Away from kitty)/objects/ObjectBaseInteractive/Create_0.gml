@@ -62,6 +62,15 @@ function getState(stateToCheck) {
     return false;
 }
 
+// Flip a state
+function flipState(stateToCheck) {
+    if(getState(stateToCheck)) {
+        removeState(stateToCheck);
+    } else {
+        setState(stateToCheck);
+    }
+}
+
 function damage(value) {
     if(!getState(stateList.STATE_INVULNERABLE)) {
         hp -= value;

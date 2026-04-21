@@ -1,4 +1,5 @@
 depth = -9999;
+persistent = true;
 
 //item constructor
 function create_item(_name, _desc, _spr, _effect) constructor 

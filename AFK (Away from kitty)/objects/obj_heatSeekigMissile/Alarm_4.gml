@@ -1,10 +1,10 @@
 /// @description shoot proj
 
-if( instance_exists(player) ){
+if(instance_exists(ObjectPlayer)){
 	projectile = instance_create_layer(x, y, "Instances", ObjectBaseWeaponProjectile);
 	projectile.parent = self;
-	projectile.overrideWeaponData(getWeaponInfo("Cheese"));
-	projectile.parentStats.rOffset = point_direction(x, y, player.x, player.y);
+    projectile.parentStats.rOffset = point_direction(x, y, ObjectPlayer.x, ObjectPlayer.y);
+	projectile.overrideWeaponData(getWeaponInfo("cheese"));
 }
 
-alarm[3] = shootTimer
+alarm[4] = shootTimer

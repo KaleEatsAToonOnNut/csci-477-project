@@ -1,0 +1,1 @@
+draw_text_colour(ux, uy, text, textColor, textColor, textColor, textColor, 1.0);
