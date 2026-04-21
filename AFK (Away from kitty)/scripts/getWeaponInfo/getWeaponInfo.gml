@@ -40,7 +40,7 @@ function getWeaponInfo(weaponName){
             minDamage: 10,
             damageRange: 10,
             ranged: true,
-            staminaCost: 30
+            staminaCost: 0
         }
     }
     var output = weaponInfoList._default;
