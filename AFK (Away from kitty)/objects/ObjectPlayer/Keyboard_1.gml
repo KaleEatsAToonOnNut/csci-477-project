@@ -3,7 +3,7 @@ if(getState("STATE_SLEEPING") && sprite_index == cat_sleep_v2) {
     image_index = 0;
 }
 
-if(!getState("STATE_LOCK_MOMENTUM") && !getState("STATE_DEAD") && !getState("STATE_SLEEPING")) {
+if(!getState("STATE_LOCK_MOMENTUM") && !getState("STATE_DEAD") && !getState("STATE_SLEEPING") && !getState("STATE_FROZEN")) {
         
     if(keyboard_check(vk_left) || keyboard_check(ord("A"))) {
         spd.x = -moveSpeed;

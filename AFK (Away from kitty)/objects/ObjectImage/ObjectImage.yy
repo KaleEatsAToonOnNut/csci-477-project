@@ -33,6 +33,8 @@
     {"$GMObjectProperty":"v2","%Name":"currImg","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"currImg","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"imgColor","filters":[],"listItems":[],"multiselect":false,"name":"imgColor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"c_white","varType":7,},
+    {"$GMObjectProperty":"v2","%Name":"opacity","filters":[],"listItems":[],"multiselect":false,"name":"opacity","rangeEnabled":true,"rangeMax":1.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -51,6 +51,7 @@
     {"id":{"name":"obj_mouse_enemy","path":"objects/obj_mouse_enemy/obj_mouse_enemy.yy",},},
     {"id":{"name":"obj_settings","path":"objects/obj_settings/obj_settings.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
+    {"id":{"name":"ObjectAbstractButtonContainer","path":"objects/ObjectAbstractButtonContainer/ObjectAbstractButtonContainer.yy",},},
     {"id":{"name":"ObjectArrayButtonContainer","path":"objects/ObjectArrayButtonContainer/ObjectArrayButtonContainer.yy",},},
     {"id":{"name":"ObjectBaseEnemy","path":"objects/ObjectBaseEnemy/ObjectBaseEnemy.yy",},},
     {"id":{"name":"ObjectBaseInteractive","path":"objects/ObjectBaseInteractive/ObjectBaseInteractive.yy",},},

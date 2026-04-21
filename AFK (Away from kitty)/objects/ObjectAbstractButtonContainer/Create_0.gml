@@ -20,3 +20,22 @@ function progressCursor(amount) {
     }
     children[cursor].outline = c_red;
 }
+
+function ifEmpty() {
+    if(array_length(children) > 0) {
+        lock();
+    }
+    return self;
+}
+
+function ifNotEmpty() {
+    if(array_length(children) == 0) {
+        lock();
+    }
+    return self;
+}
+
+function endIf() {
+    unlock();
+    return self;
+}

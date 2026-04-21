@@ -1,6 +1,7 @@
 function UIScriptMatrixDefaultMapping(){
     return {
         map: "callback",
+        params: [],
         children: [
             {
                 map: "image",

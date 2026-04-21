@@ -1,7 +1,7 @@
 if(keyboard_check(ord("E"))) {
     with(children[cursor]) {
         if(script_exists(callback)) {
-            script_execute(callback);
+            script_execute(callback, params);
         }
     }
 } else if(keyboard_check(ord("W")) || keyboard_check(vk_up)) {

@@ -1,26 +1,6 @@
 // Inherit the parent event
 event_inherited();
 
-ux = parentStats.x;
-uy = parentStats.y; 
-
-resetToParent();
-
-cursor = 0;
-
-function progressCursor(amount) {
-    if(array_length(children) == 0) { 
-        return;
-    }
-    children[cursor].outline = c_gray;
-    cursor += amount;
-    cursor %= array_length(children);
-    while(cursor < 0) {
-        cursor += array_length(children);
-    }
-    children[cursor].outline = c_red;
-}
-
 function setRows(count) {
     rowCount = count;
     return self;
@@ -37,15 +17,37 @@ function formatCells() {
     return self;
 }
 
+function evaluateParams(p, j) {
+    var out = [];
+    
+    for(var i = 0; i < array_length(p); i++) {
+        switch(p[i]){
+            case "CURRENT_INDEX":
+                array_push(out, j);
+                break;
+            case "CURSOR_INDEX":
+                array_push(out, cursor);
+                break;
+            default:
+                array_push(out, p);
+                break;
+        }
+    }
+    return out;
+}
+
 function addChildrenFromArray(val, mapping = UIScriptMatrixDefaultMapping()) {
     if(typeof(val) != "array") {
         return self;
     }
     for(var j = 0; j < array_length(val); j++) {
+        var built = evaluateParams(mapping.params, j);
+        
         var temp = createNewChild(ObjectButton)
             .setWidth(mapping.width)
             .setHeight(mapping.height)
-            .setCallback(val[j][$ mapping.map]);
+            .setCallback(val[j][$ mapping.map])
+            .setParams(built);
         for(var i = 0; i < array_length(mapping.children); i++) {
             temp.createNewChild(mapping.children[i].obj)
                 .setWidth(mapping.children[i].width)

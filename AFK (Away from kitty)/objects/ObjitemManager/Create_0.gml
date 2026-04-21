@@ -7,7 +7,7 @@ function create_item(_name, _desc, _spr, _effect) constructor
     name = _name;
     description = _desc;
     sprite = _spr;
-    effect= _effect
+    effect= _effect;
 } 
 
 

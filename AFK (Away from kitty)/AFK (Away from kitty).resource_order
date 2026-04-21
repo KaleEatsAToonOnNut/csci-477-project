@@ -30,6 +30,7 @@
     {"name":"obj_heatSeekigMissile","order":1,"path":"objects/obj_heatSeekigMissile/obj_heatSeekigMissile.yy",},
     {"name":"obj_settings","order":1,"path":"objects/obj_settings/obj_settings.yy",},
     {"name":"obj_textbox","order":4,"path":"objects/obj_textbox/obj_textbox.yy",},
+    {"name":"ObjectAbstractButtonContainer","order":12,"path":"objects/ObjectAbstractButtonContainer/ObjectAbstractButtonContainer.yy",},
     {"name":"ObjectArrayButtonContainer","order":9,"path":"objects/ObjectArrayButtonContainer/ObjectArrayButtonContainer.yy",},
     {"name":"ObjectBaseInteractive","order":1,"path":"objects/ObjectBaseInteractive/ObjectBaseInteractive.yy",},
     {"name":"ObjectBaseMoveable","order":2,"path":"objects/ObjectBaseMoveable/ObjectBaseMoveable.yy",},

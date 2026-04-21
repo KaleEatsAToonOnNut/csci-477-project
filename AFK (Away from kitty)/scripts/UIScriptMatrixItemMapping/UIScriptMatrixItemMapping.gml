@@ -1,6 +1,7 @@
 function UIScriptMatrixItemMapping(){
     return {
         map: "effect",
+        params: ["CURRENT_INDEX"],
         width: "2in",
         height: "1in",
         children: [

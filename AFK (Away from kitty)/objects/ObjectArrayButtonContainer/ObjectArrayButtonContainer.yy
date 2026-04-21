@@ -2,7 +2,6 @@
   "$GMObject":"",
   "%Name":"ObjectArrayButtonContainer",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -15,8 +14,8 @@
     "path":"folders/Objects/UI.yy",
   },
   "parentObjectId":{
-    "name":"ObjectElementUI",
-    "path":"objects/ObjectElementUI/ObjectElementUI.yy",
+    "name":"ObjectAbstractButtonContainer",
+    "path":"objects/ObjectAbstractButtonContainer/ObjectAbstractButtonContainer.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

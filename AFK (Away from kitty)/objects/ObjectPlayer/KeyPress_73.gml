@@ -17,7 +17,14 @@ if(getState("STATE_PAUSED")) {
             .setRows(3)
             .addChildrenFromArray(ObjitemManager.inv, UIScriptMatrixItemMapping())
             .formatCells()
-            .getParent();
+            .ifEmpty()
+            .createNewChild(ObjectText)
+                .setValue("Inventory empty!")
+                .setFontSize(2.0)
+                .centerX()
+                .fixTextAlign()
+                .centerY()
+                .getHead();
     
     setState("STATE_FROZEN");
     setState("STATE_PAUSED");

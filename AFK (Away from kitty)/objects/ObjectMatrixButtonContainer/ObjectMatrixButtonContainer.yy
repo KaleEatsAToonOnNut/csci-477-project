@@ -15,8 +15,8 @@
     "path":"folders/Objects/UI.yy",
   },
   "parentObjectId":{
-    "name":"ObjectElementUI",
-    "path":"objects/ObjectElementUI/ObjectElementUI.yy",
+    "name":"ObjectAbstractButtonContainer",
+    "path":"objects/ObjectAbstractButtonContainer/ObjectAbstractButtonContainer.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
