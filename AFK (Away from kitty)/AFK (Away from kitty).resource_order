@@ -49,6 +49,7 @@
     {"name":"ObjPauseMenu","order":3,"path":"objects/ObjPauseMenu/ObjPauseMenu.yy",},
     {"name":"ObjStaminaBar","order":2,"path":"objects/ObjStaminaBar/ObjStaminaBar.yy",},
     {"name":"BossArena","order":4,"path":"rooms/BossArena/BossArena.yy",},
+    {"name":"IndoorSupplyClosetRoom_1","order":6,"path":"rooms/IndoorSupplyClosetRoom_1/IndoorSupplyClosetRoom_1.yy",},
     {"name":"IndoorSupplyClosetRoom","order":3,"path":"rooms/IndoorSupplyClosetRoom/IndoorSupplyClosetRoom.yy",},
     {"name":"OutsideSupplyCloset","order":1,"path":"rooms/OutsideSupplyCloset/OutsideSupplyCloset.yy",},
     {"name":"RoadToBoss","order":5,"path":"rooms/RoadToBoss/RoadToBoss.yy",},

@@ -72,6 +72,7 @@
     {"id":{"name":"ObjPauseMenu","path":"objects/ObjPauseMenu/ObjPauseMenu.yy",},},
     {"id":{"name":"ObjStaminaBar","path":"objects/ObjStaminaBar/ObjStaminaBar.yy",},},
     {"id":{"name":"BossArena","path":"rooms/BossArena/BossArena.yy",},},
+    {"id":{"name":"IndoorSupplyClosetRoom_1","path":"rooms/IndoorSupplyClosetRoom_1/IndoorSupplyClosetRoom_1.yy",},},
     {"id":{"name":"IndoorSupplyClosetRoom","path":"rooms/IndoorSupplyClosetRoom/IndoorSupplyClosetRoom.yy",},},
     {"id":{"name":"OutsideSupplyCloset","path":"rooms/OutsideSupplyCloset/OutsideSupplyCloset.yy",},},
     {"id":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
@@ -157,6 +158,7 @@
     {"roomId":{"name":"IndoorSupplyClosetRoom","path":"rooms/IndoorSupplyClosetRoom/IndoorSupplyClosetRoom.yy",},},
     {"roomId":{"name":"BossArena","path":"rooms/BossArena/BossArena.yy",},},
     {"roomId":{"name":"RoadToBoss","path":"rooms/RoadToBoss/RoadToBoss.yy",},},
+    {"roomId":{"name":"IndoorSupplyClosetRoom_1","path":"rooms/IndoorSupplyClosetRoom_1/IndoorSupplyClosetRoom_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
