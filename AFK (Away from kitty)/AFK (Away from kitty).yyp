@@ -64,6 +64,7 @@
     {"id":{"name":"ObjectConsole","path":"objects/ObjectConsole/ObjectConsole.yy",},},
     {"id":{"name":"ObjectElementUI","path":"objects/ObjectElementUI/ObjectElementUI.yy",},},
     {"id":{"name":"ObjectEnemySlime","path":"objects/ObjectEnemySlime/ObjectEnemySlime.yy",},},
+    {"id":{"name":"ObjectEnemySpawner","path":"objects/ObjectEnemySpawner/ObjectEnemySpawner.yy",},},
     {"id":{"name":"ObjectImage","path":"objects/ObjectImage/ObjectImage.yy",},},
     {"id":{"name":"ObjectInventoryManager","path":"objects/ObjectInventoryManager/ObjectInventoryManager.yy",},},
     {"id":{"name":"ObjectMatrixButtonContainer","path":"objects/ObjectMatrixButtonContainer/ObjectMatrixButtonContainer.yy",},},
@@ -83,6 +84,7 @@
     {"id":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
     {"id":{"name":"RoadToBoss","path":"rooms/RoadToBoss/RoadToBoss.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"RoomStartingArea","path":"rooms/RoomStartingArea/RoomStartingArea.yy",},},
     {"id":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},},
     {"id":{"name":"commandList","path":"scripts/commandList/commandList.yy",},},
     {"id":{"name":"effect_treat_stick","path":"scripts/effect_treat_stick/effect_treat_stick.yy",},},
@@ -175,6 +177,7 @@
     {"roomId":{"name":"BossArena","path":"rooms/BossArena/BossArena.yy",},},
     {"roomId":{"name":"RoadToBoss","path":"rooms/RoadToBoss/RoadToBoss.yy",},},
     {"roomId":{"name":"IndoorSupplyClosetRoom_1","path":"rooms/IndoorSupplyClosetRoom_1/IndoorSupplyClosetRoom_1.yy",},},
+    {"roomId":{"name":"RoomStartingArea","path":"rooms/RoomStartingArea/RoomStartingArea.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

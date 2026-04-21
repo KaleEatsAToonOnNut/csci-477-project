@@ -1,22 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"ObjectAbstractButtonContainer",
+  "%Name":"ObjectEnemySpawner",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ObjectAbstractButtonContainer",
+  "name":"ObjectEnemySpawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objects/UI.yy",
+    "name":"Fundamental",
+    "path":"folders/Objects/Fundamental.yy",
   },
-  "parentObjectId":{
-    "name":"ObjectElementUI",
-    "path":"objects/ObjectElementUI/ObjectElementUI.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"SpriteEnemyPlaceholder",
+    "path":"sprites/SpriteEnemyPlaceholder/SpriteEnemyPlaceholder.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -158,13 +158,18 @@ function getHead() {
         return self;
     }
     if(phantom) {
+        array_delete(parent.children, array_get_index(parent.children, self), 1);
         instance_destroy(self);
     }
     return parent.getHead();
 }
 
 function getParent() {
+    if(parent == noone) {
+        return self;
+    }
     if(phantom) {
+        array_delete(parent.children, array_find_index(parent.children, self), 1);
         instance_destroy(self);
     }
     return parent;

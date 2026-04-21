@@ -1,6 +1,11 @@
 // Inherit the parent event
 event_inherited();
 
+ux = parentStats.x;
+uy = parentStats.y; 
+
+resetToParent();
+
 function setRows(count) {
     rowCount = count;
     return self;

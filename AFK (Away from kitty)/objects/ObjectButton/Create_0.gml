@@ -16,7 +16,6 @@ function setParams(p) {
         return self;
     }
     array_copy(params, 0, p, 0, array_length(p));
-    show_debug_message(params);
     return self;
 }
 
