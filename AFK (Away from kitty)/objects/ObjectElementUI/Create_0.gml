@@ -105,6 +105,8 @@ function createNewChild(type) {
     with(temp) {
         parent = other;
         depth = other.depth - 1;
+        width = other.width;
+        height = other.height;
     }
     resetToParent();
     return temp;
@@ -128,4 +130,13 @@ function isMouseOver() {
            mx <= ux + width &&
            my >= uy &&
            my <= uy + height;
+}
+
+function countOf(type, out = 0) {
+    for(var i = 0; i < array_length(children); i++) {
+        return out + children[i].countOf(type);
+    }
+    if(object_index == type) {
+        return 1;
+    }
 }

@@ -34,6 +34,7 @@
     {"$GMObjectProperty":"v2","%Name":"ux","filters":[],"listItems":[],"multiselect":false,"name":"ux","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"uy","filters":[],"listItems":[],"multiselect":false,"name":"uy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"parent","filters":[],"listItems":[],"multiselect":false,"name":"parent","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"outline","filters":[],"listItems":[],"multiselect":false,"name":"outline","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"c_gray","varType":7,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

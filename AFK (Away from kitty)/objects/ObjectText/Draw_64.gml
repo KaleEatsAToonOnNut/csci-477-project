@@ -1,1 +1,1 @@
-draw_text_colour(ux, uy, text, textColor, textColor, textColor, textColor, 1.0);
+draw_text_ext_colour(ux, uy, text, -1, width, textColor, textColor, textColor, textColor, 1.0);

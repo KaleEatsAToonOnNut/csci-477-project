@@ -24,7 +24,7 @@ global.item_list = {
 
 //create the inventory
 inv = array_create(0);
-inv_max = 3; 
+inv_max = 9; 
 selected_item = -1;
 
 //for drawing and mouse positions

@@ -1,0 +1,1 @@
+draw_sprite_ext(currImg, 0, ux, uy, width / defXScale, height / defYScale, 0, c_white, 1.0);
