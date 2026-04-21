@@ -41,13 +41,9 @@ function getWeaponInfo(weaponName){
             minDamage: 10,
             damageRange: 10,
             ranged: true,
-<<<<<<< HEAD
-            staminaCost: 0
-=======
             staminaCost: 30,
             lifetime: 10000,
             spriteOverride: spr_treat_stick
->>>>>>> 660c7d19afb328fb57aaa2cf6cbb109c59f52f05
         }
     }
     var output = weaponInfoList._default;
