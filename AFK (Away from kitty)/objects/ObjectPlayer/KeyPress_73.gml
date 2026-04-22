@@ -23,8 +23,10 @@ if(getState("STATE_PAUSED")) {
                 .setFontSize(2.0)
                 .centerX()
                 .fixTextAlign()
-                .centerY()
-                .getHead();
+                .setY("2in")
+                .getHead()
+        .unlock()
+        .setBackground(InventoryUI);
     
     setState("STATE_FROZEN");
     setState("STATE_PAUSED");
