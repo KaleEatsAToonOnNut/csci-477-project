@@ -26,6 +26,7 @@ function fixTextAlign() {
         return self;
     }
     ux -= string_width(text) * fontSize / 2;
+    uy -= string_height(text) * fontSize / 2;
     refreshStats();
     return self;
 }
