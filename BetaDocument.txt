@@ -1,0 +1,19 @@
+Completed features:
+- Top-down 2D map
+- Cute cat player
+- Camera that follows the player
+- Fast-paced combat mechanics
+- Responsive enemy AI logic
+- Challenging boss battle
+- Dungeon to navigate through
+- Friendly NPCs to interact with
+- Pause menu
+- Inventory system
+- Save/load system
+- Dialogue system
+
+Incomplete features:
+- Responsive sound effects
+- Fully explorable house
+- Multiple dungeons
+- Story for the player to follow
