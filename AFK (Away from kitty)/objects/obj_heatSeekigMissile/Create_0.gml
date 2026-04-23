@@ -5,7 +5,7 @@ middleRad = 500
 outerRad = 700
 
 moveSpeed = 2
-atk_spd = 4
+atk_spd = 2
 vsp = 0
 hsp = 0
 nme_state = state.IDLE

@@ -15,7 +15,7 @@ explodeTimer = game_get_speed(gamespeed_fps) * 2
 
 alarm[0] = idleMoveTime
 alarm[1] = idleStopTime
-alarm[2] = attackTimer
-alarm[3] = explodeTimer
+alarm[2] = -1
+alarm[3] = -1
 
 setState("STATE_CONTACT_HARM_PLAYER")
