@@ -1,13 +1,13 @@
 {
   "$GMRoom":"v1",
-  "%Name":"IndoorSupplyClosetRoom_1",
+  "%Name":"IndoorSupplyClosetRoom_2",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_8933099_1","path":"rooms/IndoorSupplyClosetRoom_1/IndoorSupplyClosetRoom_1.yy",},
-    {"name":"inst_59B2B50A","path":"rooms/IndoorSupplyClosetRoom_1/IndoorSupplyClosetRoom_1.yy",},
+    {"name":"inst_8933099_1_1","path":"rooms/IndoorSupplyClosetRoom_2/IndoorSupplyClosetRoom_2.yy",},
+    {"name":"inst_7686CCA4","path":"rooms/IndoorSupplyClosetRoom_2/IndoorSupplyClosetRoom_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -27,12 +27,12 @@
           -118,2,
         ],"TileDataFormat":1,},"tilesetId":{"name":"CollisionTile","path":"tilesets/CollisionTile/CollisionTile.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_8933099_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_8933099_1","objectId":{"name":"ObjectRoomTransition","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},"properties":[
+        {"$GMRInstance":"v4","%Name":"inst_8933099_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_8933099_1_1","objectId":{"name":"ObjectRoomTransition","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjectRoomTransition","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},"propertyId":{"name":"roomTo","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},"resource":{"name":"OutsideSupplyCloset","path":"rooms/OutsideSupplyCloset/OutsideSupplyCloset.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"OutsideSupplyCloset",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjectRoomTransition","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},"propertyId":{"name":"dir","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"270",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjectRoomTransition","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},"propertyId":{"name":"tpid","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjectRoomTransition","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},"propertyId":{"name":"tpid","path":"objects/ObjectRoomTransition/ObjectRoomTransition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.75,"x":128.0,"y":264.0,},
-        {"$GMRInstance":"v4","%Name":"inst_59B2B50A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_59B2B50A","objectId":{"name":"npc_bread_baby_1","path":"objects/npc_bread_baby_1/npc_bread_baby_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":7.6,"scaleY":4.6,"x":-160.0,"y":-112.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7686CCA4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7686CCA4","objectId":{"name":"npc_mozerella_1","path":"objects/npc_mozerella_1/npc_mozerella_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.8,"scaleY":1.8,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Floor","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Floor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":19,"SerialiseWidth":32,"TileCompressedData":[
           -358,-2147483648,3,35,21,37,-29,-2147483648,3,17,1,25,-29,-2147483648,3,17,1,25,-29,-2147483648,3,17,
@@ -40,7 +40,7 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"base_soil","path":"sprites/base_soil/base_soil.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
-  "name":"IndoorSupplyClosetRoom_1",
+  "name":"IndoorSupplyClosetRoom_2",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
