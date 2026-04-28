@@ -12,7 +12,7 @@ function getWeaponInfo(weaponName){
             spriteOverride: spr_slash,
             isVisible: true,
             lifetime: 100,
-            staminaCost: 20,
+            staminaCost: 0,
             knockback: 4
         },
         claws: {

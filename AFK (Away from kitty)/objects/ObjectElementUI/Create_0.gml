@@ -203,6 +203,14 @@ function setBackground(spr) {
     return self;
 }
 
+function setOpacity(op) {
+    if(locked) {
+        return self;
+    }
+    opacity = op;
+    return self;
+}
+
 function lock() {
     locked = true;
     return self;

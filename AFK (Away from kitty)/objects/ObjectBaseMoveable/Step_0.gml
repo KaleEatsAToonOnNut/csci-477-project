@@ -22,6 +22,7 @@ if(!getState("STATE_NO_WALL_COLLIDE")) {
     			x += sign(spd.x);
     		}
     		spd.x = 0;
+            knockback.x = 0;
     }
     
     if (place_meeting(x, y + spd.y, tilemap_id)) {
@@ -29,6 +30,7 @@ if(!getState("STATE_NO_WALL_COLLIDE")) {
     			y += sign(spd.y);
     		}
     		spd.y = 0;
+            knockback.y = 0;
     }
 }
 

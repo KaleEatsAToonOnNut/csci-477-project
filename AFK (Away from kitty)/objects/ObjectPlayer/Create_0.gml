@@ -9,6 +9,7 @@ addToStateList("STATE_MOVING");
 addToStateList("STATE_ATTACKING");
 
 //window_set_fullscreen(true);
+ui = noone;
 
 moveSpeed = 4;
 //Stamina regeneration rates for standing still, walking, and dashing (also health and stamina regen for sleeping)

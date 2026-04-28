@@ -70,15 +70,3 @@ function flipState(stateToCheck) {
         setState(stateToCheck);
     }
 }
-
-function damage(value) {
-    if(!getState(stateList.STATE_INVULNERABLE)) {
-        hp -= value;
-        if(hp < 0) {
-            hp = 0;
-        }
-    }
-    if(hp == 0) {
-        instance_destroy(self);
-    }
-}
