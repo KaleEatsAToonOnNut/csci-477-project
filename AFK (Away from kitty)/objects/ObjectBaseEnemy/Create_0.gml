@@ -2,7 +2,9 @@
 event_inherited();
 
 meleeWeapon = "contact"
-rangedWeapon = noone
+rangedWeapon = noone;
+
+maxHP = hp;
 
 moveSpeed = 4;
 canSeePlayer = false;

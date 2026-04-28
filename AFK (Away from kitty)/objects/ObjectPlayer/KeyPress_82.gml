@@ -1,1 +1,1 @@
-readSaveFile(saveName);
+readSaveFile([saveName]);

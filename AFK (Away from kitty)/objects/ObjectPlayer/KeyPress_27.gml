@@ -1,3 +1,7 @@
+if(getState("STATE_DEAD")) {
+    return;
+}
+
 if(getState("STATE_PAUSED")) {
     
     instance_destroy(ui);

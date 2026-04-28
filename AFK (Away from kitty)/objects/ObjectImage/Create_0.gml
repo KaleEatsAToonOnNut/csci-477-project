@@ -25,11 +25,3 @@ function setColor(col) {
     imgColor = col;
     return self;
 }
-
-function setOpacity(op) {
-    if(locked) {
-        return self;
-    }
-    opacity = op;
-    return self;
-}
