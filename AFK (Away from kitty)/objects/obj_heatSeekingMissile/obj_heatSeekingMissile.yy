@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy1_placeholder_1",
-    "path":"sprites/spr_enemy1_placeholder_1/spr_enemy1_placeholder_1.yy",
+    "name":"RatBoss",
+    "path":"sprites/RatBoss/RatBoss.yy",
   },
   "spriteMaskId":null,
   "visible":true,
