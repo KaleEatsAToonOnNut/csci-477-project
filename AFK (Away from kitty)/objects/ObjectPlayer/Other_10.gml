@@ -8,5 +8,5 @@ if(ui != noone) {
 ui = instance_create_layer(0, 0, "Instances", ObjectTransitionUI)
     .setWidth(string(browser_width))
     .setHeight(string(browser_height))
-    .setTiming(300)
+    .setTiming(150)
     .setCallback(UIScriptRespawn);

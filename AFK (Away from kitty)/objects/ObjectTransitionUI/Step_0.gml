@@ -1,4 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
-opacity += 1.0 / timing;
+if(dec) {
+    opacity -= 1.0 / timing;
+} else {
+    opacity += 1.0 / timing;
+}

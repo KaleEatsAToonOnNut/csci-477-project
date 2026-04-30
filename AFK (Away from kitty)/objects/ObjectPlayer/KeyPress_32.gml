@@ -7,6 +7,8 @@ if(stamina - getWeaponInfo(currentWeapon).staminaCost < 0 || getState("STATE_DEA
 }
 stamina -= getWeaponInfo(currentWeapon).staminaCost;
 
+audio_play_sound(snd_playerattack, 1, false);
+
 projectile = instance_create_layer(x, y, "Instances", ObjectBaseWeaponProjectile);
 projectile.parent = self;
 projectile.overrideWeaponData(getWeaponInfo(currentWeapon));

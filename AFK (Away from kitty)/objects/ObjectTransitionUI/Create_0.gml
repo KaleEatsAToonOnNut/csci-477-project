@@ -2,7 +2,8 @@
 event_inherited();
 
 params = [];
-timing = 1.0
+timing = 1.0;
+dec = false;
 
 function setTiming(timev) {
     if(locked) {
@@ -26,6 +27,19 @@ function setParams(p) {
         return self;
     }
     array_copy(params, 0, p, 0, array_length(p));
+    return self;
+}
+
+function setDecreasing(b) {
+    if(locked) {
+        return self;
+    }
+    dec = b;
+    if(b) {
+        opacity = 1;
+    } else {
+        opacity = 0;
+    }
     return self;
 }
 

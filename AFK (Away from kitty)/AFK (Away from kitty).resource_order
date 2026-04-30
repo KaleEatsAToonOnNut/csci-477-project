@@ -1,7 +1,6 @@
 {
   "FolderOrderSettings":[
     {"name":"Dialogue System","order":5,"path":"folders/Dialogue System.yy",},
-    {"name":"Sounds","order":9,"path":"folders/Sounds.yy",},
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
     {"name":"Enemies","order":17,"path":"folders/Objects/Enemies.yy",},
     {"name":"Fundamental","order":15,"path":"folders/Objects/Fundamental.yy",},
@@ -14,6 +13,7 @@
     {"name":"UI","order":13,"path":"folders/Objects/UI.yy",},
     {"name":"UIScripts","order":7,"path":"folders/Objects/UI/UIScripts.yy",},
     {"name":"Rooms","order":8,"path":"folders/Rooms.yy",},
+    {"name":"Sounds","order":9,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
     {"name":"items","order":10,"path":"folders/Sprites/items.yy",},
     {"name":"stage1","order":5,"path":"folders/Sprites/stage1.yy",},
