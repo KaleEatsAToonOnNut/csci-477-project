@@ -69,7 +69,7 @@ function scr_game_text(_text_id){
                 scr_option("Uhhhh", "mozerella_1 - Uhhhh");
 				
 				break;
-            case "mozerella_1 - the door was unlocked":
+            case "mozerella_1 - The door was unlocked":
                 scr_text("please leave.");
                 break;
             case "mozerella_1 - Uhhhh":
