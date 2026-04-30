@@ -75,3 +75,11 @@ if( instance_exists(ObjectPlayer)) {
 		}
 	}
 }
+
+if ((knockback.x != 0 || knockback.y != 0) && play_hit) {
+	audio_play_sound(snd_hit, 1, false, 1, 0, random_range(1,1.5))
+	play_hit = false
+}
+
+if getState("STATE_DEAD") 
+	audio_play_sound(snd_mousedie, 1, false, 1, 0, random_range(0.75, 1.25))

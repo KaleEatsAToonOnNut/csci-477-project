@@ -14,6 +14,7 @@ setState("STATE_LOCK_MOMENTUM");
 setState("STATE_INVULNERABLE");
 spd.x = dashSpeed * directions.x;
 spd.y = dashSpeed * directions.y;
+audio_play_sound(snd_playerdodge, 1, false, 1, 0, random_range(0.5, 1))
 
 if(!getState("STATE_MOVING")) {
     directions.x = 0;

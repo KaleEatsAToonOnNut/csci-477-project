@@ -17,3 +17,5 @@ if(directions.x == 0 && directions.y == 0) {
 projectile.overrideWeaponData(getWeaponInfo(currentWeapon));
 
 setState("STATE_ATTACKING");
+
+audio_play_sound(snd_playerattack, 1, false, 1, 0, random_range(1, 1.5))

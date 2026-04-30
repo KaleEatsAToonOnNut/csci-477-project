@@ -1,3 +1,4 @@
+play_hit = true
 knockback.x = 0;
 knockback.y = 0;
 image_alpha = 1.0;

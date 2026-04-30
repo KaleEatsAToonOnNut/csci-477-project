@@ -1,4 +1,5 @@
-sprite_index = cat_sleep;
+sprite_index = cat_sleep
+audio_play_sound(snd_playerdie,1,false,2,0,1)
 
 if(ui != noone) {
     instance_destroy(ui);

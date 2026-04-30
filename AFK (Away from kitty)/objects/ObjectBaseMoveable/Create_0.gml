@@ -15,6 +15,7 @@ addToStateList("STATE_FORCE_MOMENTUM");
 addToStateList("STATE_NO_WALL_COLLIDE");
 // Lock the object's momentum
 addToStateList("STATE_LOCK_MOMENTUM");
+play_hit = true
 
 // Manage the speed of the object
 spd = {

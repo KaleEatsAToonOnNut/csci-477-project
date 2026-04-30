@@ -1,4 +1,5 @@
 // Inherit the parent event
+has_parried = false
 event_inherited();
 
 addToStateList("STATE_MULTIATTACK");
