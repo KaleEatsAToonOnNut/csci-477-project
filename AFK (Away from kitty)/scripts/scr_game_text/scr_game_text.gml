@@ -5,7 +5,7 @@ function scr_game_text(_text_id){
     	
         case "npc 1":
        
-            scr_text("You need to help us! Please find all the villagers and defeat the giant angry slime in the north of the village!", "npc", -1); 
+            scr_text("You need to help us! Please find all the villagers and defeat The rat named Maximus Dissimus Medidus III in the north of the village!", "npc", -1); 
                 //scr_text_float(3,11); //wave effect    
                 //scr_text_shake(0, 1); //shake effect 
                 scr_option("OK!", "npc 1 - OK!");
@@ -63,7 +63,7 @@ function scr_game_text(_text_id){
 	   case "mozerella_1":
        
             scr_text("WHY ARE YOU IN MY HOME", "npc", -1); 
-                scr_text_float(0,21); //wave effect    
+                scr_text_float(0, 21); //wave effect    
                 scr_text_shake(0, 21); //shake effect 
                 scr_option("The door was unlocked", "mozerella_1 - The door was unlocked");
                 scr_option("Uhhhh", "mozerella_1 - Uhhhh");
@@ -102,7 +102,7 @@ function scr_game_text(_text_id){
 				
 				break;
             case "bread_baby_1 - wa?":
-                scr_text("this village requires you help, young traveller. We have met an arch evil force like no other. The slime in the far north of the town inside the large building is keeping us in fear. we need your help!");
+                scr_text("this village requires you help, young traveller. We have met an arch evil force like no other. The rat named Maximus Dissimus Medidus III in the far north of the town inside the large building is keeping us in fear. we need your help!");
                 break;
             case "bread_baby_1 - hey there big guy":
                 scr_text("...");
