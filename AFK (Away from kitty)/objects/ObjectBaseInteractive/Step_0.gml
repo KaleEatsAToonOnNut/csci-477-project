@@ -1,3 +1,36 @@
+// Set a state in the stateList bitmask
+function setState(stateToCheck) {
+    if(variable_struct_exists(stateList, stateToCheck)) {
+        currentState |= variable_struct_get(stateList, stateToCheck);
+    }
+}
+
+// Remove a state in the stateList bitmask
+function removeState(stateToCheck) {
+    if(variable_struct_exists(stateList, stateToCheck)) {
+        currentState = currentState & (~variable_struct_get(stateList, stateToCheck));
+    }
+}
+
+// Check if a state is applied
+function getState(stateToCheck) {
+    if(variable_struct_exists(stateList, stateToCheck)) {
+        if(currentState & variable_struct_get(stateList, stateToCheck)) {
+            return true;
+        }
+    }
+    return false;
+}
+
+// Flip a state
+function flipState(stateToCheck) {
+    if(getState(stateToCheck)) {
+        removeState(stateToCheck);
+    } else {
+        setState(stateToCheck);
+    }
+}
+
 if(getState("STATE_PAUSED") || getState("STATE_DEAD")) {
     return;
 }
